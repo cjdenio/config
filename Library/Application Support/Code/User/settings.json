@@ -1,0 +1,114 @@
+{
+  "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
+
+  // Display
+  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "vscode-icons",
+
+  // Git
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  "editor.formatOnSave": true,
+
+  // Language overrides
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.view.pdf.invert": 0.9,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Microsoft",
+  "java.home": "/Users/calebdenio/wpilib/2021/jdk",
+  "java.project.importHint": false,
+  "fgh-code.promptOnOpen": false,
+  "wpilib.autoStartRioLog": false,
+  "[dart]": {
+    "editor.formatOnType": true,
+    // "editor.rulers": [
+    //   80
+    // ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "rust-client.engine": "rust-analyzer",
+  "docker.dockerComposeBuild": false,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "wpilib.offline": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "javascript.validate.enable": false,
+  "remote.SSH.path": "/usr/bin/ssh",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "ruby.useLanguageServer": true,
+  "vscode-pets.petType": "rubber duck",
+
+  // Vim
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["g", "s"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<leader>", "f", "s"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.action.terminal.toggleTerminal"]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": ["rest-client.request"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["wpilibcore.deployCode"]
+    }
+  ],
+  "vim.camelCaseMotion.enable": true,
+  "vim.replaceWithRegister": true,
+  "vim.leader": " ",
+
+  "workbench.colorTheme": "Dracula",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "window.titleSeparator": " ⚡️ ",
+  "workbench.sideBar.location": "right",
+  "rest-client.previewResponsePanelTakeFocus": false,
+  "window.zoomLevel": -1
+}
