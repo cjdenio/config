@@ -1,0 +1,7 @@
+#!/bin/bash
+
+path="~/Library/Application\ Support/Code/User/extensions.json"
+
+code --list-extensions | tee $path
+
+yadm add $path
