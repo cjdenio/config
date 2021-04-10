@@ -6,7 +6,7 @@ read -p "This script will install a cron job with crontab, as well as some VS Co
 (crontab -l 2>/dev/null; echo "0 * * * * ~/.config/yadm/bin/update-config") | crontab -
 
 # install some vs code extensions
-for extension in $(cat "/Users/calebdenio/Library/Application Support/Code/User/extensions.json")
+for extension in $(cat "/Users/calebdenio/Library/Application Support/Code/User/extensions.txt")
 do
 	code --install-extension "$extension"	
 done

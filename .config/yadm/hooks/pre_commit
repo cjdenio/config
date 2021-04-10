@@ -1,6 +1,6 @@
 #!/bin/bash
 
-extensions_path=~/Library/Application\ Support/Code/User/extensions.json
+extensions_path=~/Library/Application\ Support/Code/User/extensions.txt
 
 code --list-extensions > "$extensions_path"
 
