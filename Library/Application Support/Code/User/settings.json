@@ -5,6 +5,11 @@
   "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "workbench.iconTheme": "vscode-icons",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.colorTheme": "Dracula",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "window.titleSeparator": " ⚡️ ",
+  "workbench.sideBar.location": "right",
 
   // Git
   "git.enableSmartCommit": true,
@@ -35,6 +40,20 @@
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[dart]": {
+    "editor.formatOnType": true,
+    // "editor.rulers": [
+    //   80
+    // ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.view.pdf.invert": 0.9,
@@ -47,22 +66,10 @@
   "java.project.importHint": false,
   "fgh-code.promptOnOpen": false,
   "wpilib.autoStartRioLog": false,
-  "[dart]": {
-    "editor.formatOnType": true,
-    // "editor.rulers": [
-    //   80
-    // ],
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
-  },
   "rust-client.engine": "rust-analyzer",
   "docker.dockerComposeBuild": false,
   "js/ts.implicitProjectConfig.checkJs": true,
   "wpilib.offline": true,
-  "workbench.productIconTheme": "icons-carbon",
   "javascript.validate.enable": false,
   "remote.SSH.path": "/usr/bin/ssh",
   "workbench.editorAssociations": [
@@ -71,9 +78,6 @@
       "filenamePattern": "*.ipynb"
     }
   ],
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "ruby.useLanguageServer": true,
   "vscode-pets.petType": "rubber duck",
@@ -105,10 +109,6 @@
   "vim.replaceWithRegister": true,
   "vim.leader": " ",
 
-  "workbench.colorTheme": "Dracula",
-  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
-  "window.titleSeparator": " ⚡️ ",
-  "workbench.sideBar.location": "right",
   "rest-client.previewResponsePanelTakeFocus": false,
   "window.zoomLevel": -1
 }
