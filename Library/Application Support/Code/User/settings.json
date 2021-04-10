@@ -110,5 +110,6 @@
   "vim.leader": " ",
 
   "rest-client.previewResponsePanelTakeFocus": false,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "python.pythonPath": "/opt/homebrew/bin/python3"
 }

@@ -31,6 +31,7 @@ end
 # Aliases/Abbreviations
 if status --is-interactive
     abbr --add --global l ls
+    abbr --add --global lg "ls | grep"
 
     abbr --add --global dcu docker-compose up -d
     abbr --add --global dcd docker-compose down
@@ -52,6 +53,9 @@ alias ls=exa
 alias cat=bat
 
 alias tree="exa -T"
+
+alias vi=nvim
+alias vim=nvim
 
 # External tools
 starship init fish | source

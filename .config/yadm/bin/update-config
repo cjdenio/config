@@ -8,7 +8,5 @@ then
 fi
 
 yadm add -u
-
 yadm commit -m "$commit_message"
-
 yadm push
