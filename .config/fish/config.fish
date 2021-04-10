@@ -28,7 +28,19 @@ function kccdownload
   curl $argv[1] --output - | ffmpeg -i - -ab 48k $argv[2]
 end
 
-# Aliases
+# Aliases/Abbreviations
+if status --is-interactive
+    abbr --add --global l ls
+
+    abbr --add --global dcu docker-compose up -d
+    abbr --add --global dcd docker-compose down
+    abbr --add --global dcl docker-compose logs -f
+    abbr --add --global dclm docker-compose logs -f main
+
+    abbr --add --global dps docker ps
+    abbr --add --global cl clear
+end
+
 alias gotchi-dokku="/usr/bin/env ssh dokku@52.33.253.206 -q -t -p 3022"
 
 alias icat="kitty +kitten icat"
@@ -37,19 +49,9 @@ alias c="code ."
 alias cx="code . && exit"
 
 alias ls=exa
-alias l=ls
 alias cat=bat
 
 alias tree="exa -T"
-
-alias dcu="docker-compose up -d"
-alias dcd="docker-compose down"
-alias dclm="docker-compose logs -f main"
-alias dcl="docker-compose logs -f"
-
-alias dps="docker ps"
-
-alias cl=clear
 
 # External tools
 starship init fish | source
