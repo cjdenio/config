@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# install auto-updater cron job
+(crontab -l 2>/dev/null; echo "0 * * * * ~/.config/yadm/bin/update-config") | crontab -
+
+# install some vs code extensions
+for extension in $(cat "/Users/calebdenio/Library/Application Support/Code/User/extensions.json")
+do
+	code --install-extension "$extension"	
+done
