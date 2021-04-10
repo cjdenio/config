@@ -1,0 +1,14 @@
+#!/bin/bash
+
+commit_message="Update config"
+
+if [ -n "$1" ]
+then
+	commit_message=$1
+fi
+
+yadm add -u
+
+yadm commit -m "$commit_message"
+
+yadm push
