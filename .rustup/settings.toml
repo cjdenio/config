@@ -1,0 +1,7 @@
+default_toolchain = "stable-aarch64-apple-darwin"
+profile = "default"
+version = "12"
+
+[overrides]
+"/Users/calebdenio/github/cjdenio/public/go/shorty" = "nightly-aarch64-apple-darwin"
+"/Users/calebdenio/github/hackagotchi/public/rust/hackagotchi" = "nightly-aarch64-apple-darwin"
