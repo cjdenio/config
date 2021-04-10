@@ -16,6 +16,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sbdchd/neoformat'
 
+Plug 'wakatime/vim-wakatime'
+
 call plug#end()
 
 colorscheme dracula
