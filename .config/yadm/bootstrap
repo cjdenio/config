@@ -1,5 +1,7 @@
 #!/bin/bash
 
+read -p "This script will install a cron job with crontab, as well as some VS Code extensions. Press enter to continue, or ctrl+c to cancel..."
+
 # install auto-updater cron job
 (crontab -l 2>/dev/null; echo "0 * * * * ~/.config/yadm/bin/update-config") | crontab -
 
