@@ -62,7 +62,7 @@
   "docker.dockerComposeBuild": false,
   "js/ts.implicitProjectConfig.checkJs": true,
   "wpilib.offline": true,
-  "workbench.productIconTheme": "fluent-icons",
+  "workbench.productIconTheme": "icons-carbon",
   "javascript.validate.enable": false,
   "remote.SSH.path": "/usr/bin/ssh",
   "workbench.editorAssociations": [
