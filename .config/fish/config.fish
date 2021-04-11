@@ -66,4 +66,4 @@ starship init fish | source
 status --is-interactive; and source (rbenv init -|psub)
 
 # Environment variables
-set EDITOR nvim
+set -x EDITOR nvim
