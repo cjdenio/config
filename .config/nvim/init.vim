@@ -13,6 +13,7 @@ Plug 'vim-scripts/argtextobj.vim'
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'mileszs/ack.vim'
 
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -26,6 +27,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sbdchd/neoformat'
 
 Plug 'wakatime/vim-wakatime'
+"
+" Languages
+Plug 'rust-lang/rust.vim'
+Plug 'fatih/vim-go'
 
 call plug#end()
 
@@ -57,3 +62,6 @@ nnoremap <silent> <expr> <Leader><Leader> (expand('%') =~ 'NERD_tree' ? "\<c-w>\
 " coc-related mappings
 nmap <leader>rn <Plug>(coc-rename)
 nmap <silent> gd <Plug>(coc-definition)
+
+" Set JSON for captain-definition files
+autocmd BufNewFile,BufRead captain-definition set ft=json
