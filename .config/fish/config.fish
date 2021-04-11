@@ -30,6 +30,9 @@ end
 
 # Aliases/Abbreviations
 if status --is-interactive
+    abbr --add --global vi nvim
+    abbr --add --global vim nvim
+
     abbr --add --global l ls
     abbr --add --global lg "ls | grep -i"
 
@@ -39,7 +42,10 @@ if status --is-interactive
     abbr --add --global dclm docker-compose logs -f main
 
     abbr --add --global dps docker ps
+
     abbr --add --global cl clear
+    abbr --add --global nf neofetch
+    abbr --add --global pg ping google.com -v
 end
 
 alias gotchi-dokku="/usr/bin/env ssh dokku@52.33.253.206 -q -t -p 3022"
@@ -53,9 +59,6 @@ alias ls=exa
 alias cat=bat
 
 alias tree="exa -T"
-
-alias vi=nvim
-alias vim=nvim
 
 # External tools
 starship init fish | source

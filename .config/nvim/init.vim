@@ -12,6 +12,9 @@ Plug 'vim-scripts/ReplaceWithRegister'
 
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
+Plug 'vim-airline/vim-airline'
+
+Plug 'airblade/vim-gitgutter'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sbdchd/neoformat'
@@ -32,3 +35,9 @@ augroup fmt
   autocmd!
   autocmd BufWritePre * undojoin | Neoformat
 augroup END
+
+set nu rnu
+
+autocmd BufWinEnter * silent NERDTreeMirror
+
+let NERDTreeWinPos="right"
