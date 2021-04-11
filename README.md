@@ -5,7 +5,7 @@
 ### Configs of interest:
 
 - [Neovim](.config/nvim/init.vim)
-- [Visual Studio Code](<Library/Application\ Support/Code/User>)
+- [Visual Studio Code](Library/Application Support/Code/User)
 
 - [fish](.config/fish/config.fish)
 - [Starship](.config/starship.toml)
