@@ -27,10 +27,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sbdchd/neoformat'
 
 Plug 'wakatime/vim-wakatime'
-"
+
 " Languages
 Plug 'rust-lang/rust.vim'
 Plug 'fatih/vim-go'
+Plug 'evanleck/vim-svelte'
 
 call plug#end()
 
@@ -52,6 +53,8 @@ set nu rnu
 autocmd BufWinEnter * silent NERDTreeMirror
 
 let NERDTreeWinPos="right"
+let NERDTreeMinimalUI = 1
+let NERDTreeShowHidden = 1
 
 " Start NERDTree when Vim is started without file arguments.
 autocmd StdinReadPre * let s:std_in=1
@@ -64,4 +67,8 @@ nmap <leader>rn <Plug>(coc-rename)
 nmap <silent> gd <Plug>(coc-definition)
 
 " Set JSON for captain-definition files
-autocmd BufNewFile,BufRead captain-definition set ft=json
+autocmd BufNewFile,BufRead captain-definition,.prettierrc set ft=json
+
+set termguicolors
+
+let g:pear_tree_repeatable_expand = 0

@@ -3,6 +3,7 @@
     "coc-go": ">=0.13.3",
     "coc-rust-analyzer": ">=0.40.0",
     "coc-svelte": ">=0.2.2",
-    "coc-tsserver": ">=1.6.8"
+    "coc-tsserver": ">=1.6.8",
+    "coc-vetur": ">=1.2.4"
   }
 }

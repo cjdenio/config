@@ -46,6 +46,8 @@ if status --is-interactive
     abbr --add --global cl clear
     abbr --add --global nf neofetch
     abbr --add --global pg ping google.com -v
+    
+    abbr --add --global f fcd
 end
 
 alias gotchi-dokku="/usr/bin/env ssh dokku@52.33.253.206 -q -t -p 3022"

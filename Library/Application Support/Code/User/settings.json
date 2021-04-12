@@ -103,6 +103,10 @@
     {
       "before": ["<leader>", "d"],
       "commands": ["wpilibcore.deployCode"]
+    },
+    {
+      "before": ["<leader>", "<leader>"],
+      "commands": ["workbench.action.quickOpen"]
     }
   ],
   "vim.camelCaseMotion.enable": true,
