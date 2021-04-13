@@ -6,7 +6,6 @@
   "editor.fontLigatures": true,
   "workbench.iconTheme": "vscode-icons",
   "workbench.productIconTheme": "icons-carbon",
-  "workbench.colorTheme": "Dracula",
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
   "window.titleSeparator": " ⚡️ ",
   "workbench.sideBar.location": "right",
@@ -64,7 +63,6 @@
   "python.languageServer": "Microsoft",
   "java.home": "/Users/calebdenio/wpilib/2021/jdk",
   "java.project.importHint": false,
-  "fgh-code.promptOnOpen": false,
   "wpilib.autoStartRioLog": false,
   "rust-client.engine": "rust-analyzer",
   "docker.dockerComposeBuild": false,
@@ -115,5 +113,13 @@
 
   "rest-client.previewResponsePanelTakeFocus": false,
   "window.zoomLevel": -1,
-  "python.pythonPath": "/opt/homebrew/bin/python3"
+  "python.pythonPath": "/opt/homebrew/bin/python3",
+  "fgh-code.promptOnOpen": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "workbench.colorTheme": "Dracula"
 }

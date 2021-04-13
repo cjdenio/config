@@ -35,6 +35,7 @@ if status --is-interactive
 
     abbr --add --global l ls
     abbr --add --global lg "ls | grep -i"
+    abbr --add --global g "grep -i"
 
     abbr --add --global dcu docker-compose up -d
     abbr --add --global dcd docker-compose down
