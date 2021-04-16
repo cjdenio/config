@@ -5,3 +5,4 @@ version = "12"
 [overrides]
 "/Users/calebdenio/github/cjdenio/public/go/shorty" = "nightly-aarch64-apple-darwin"
 "/Users/calebdenio/github/hackagotchi/public/rust/hackagotchi" = "nightly-aarch64-apple-darwin"
+"/Users/calebdenio/rust-test" = "nightly-aarch64-apple-darwin"
