@@ -1,10 +1,10 @@
 # Fish config
 
-function fish_greeting
-  set text (random choice "Welcome to the terminal" "Hi there" "Wassup" "HIIIIIIII" "yo hi there" "yo it's $USER" "hello there")
-  set cow (random choice "default" "vader" "turtle" "sheep")
-  cowsay -f $cow $text | lolcat
-end
+# function fish_greeting
+#   set text (random choice "Welcome to the terminal" "Hi there" "Wassup" "HIIIIIIII" "yo hi there" "yo it's $USER" "hello there")
+#   set cow (random choice "default" "vader" "turtle" "sheep")
+#   cowsay -f $cow $text | lolcat
+# end
 
 # Functions
 function fcd --wraps "fgh ls"
