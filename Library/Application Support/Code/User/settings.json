@@ -112,7 +112,6 @@
   "vim.leader": " ",
 
   "rest-client.previewResponsePanelTakeFocus": false,
-  "window.zoomLevel": -1,
   "python.pythonPath": "/opt/homebrew/bin/python3",
   "fgh-code.promptOnOpen": false,
   "files.exclude": {
@@ -121,5 +120,7 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "workbench.colorTheme": "Dracula"
+  "workbench.colorTheme": "Dracula",
+  "go.toolsManagement.autoUpdate": true,
+  "window.zoomLevel": -1
 }
