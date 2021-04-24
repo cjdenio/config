@@ -78,7 +78,7 @@
   ],
   "typescript.updateImportsOnFileMove.enabled": "always",
   "ruby.useLanguageServer": true,
-  "vscode-pets.petType": "rubber duck",
+  "vscode-pets.petType": "rubber-duck",
 
   // Vim
   "vim.normalModeKeyBindings": [
@@ -122,5 +122,19 @@
   },
   "workbench.colorTheme": "Dracula",
   "go.toolsManagement.autoUpdate": true,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    },
+    {
+      "label": "Open Issues",
+      "query": "state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ]
 }
