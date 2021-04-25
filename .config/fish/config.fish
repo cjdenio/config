@@ -63,6 +63,10 @@ alias cat=bat
 
 alias tree="exa -T"
 
+alias 🐟="fish"
+alias 💥="bash"
+alias 💤="zsh"
+
 # External tools
 starship init fish | source
 
