@@ -120,9 +120,7 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "workbench.colorTheme": "Dracula",
   "go.toolsManagement.autoUpdate": true,
-  "window.zoomLevel": -1,
   "githubIssues.queries": [
     {
       "label": "My Issues",
@@ -136,5 +134,7 @@
       "label": "Open Issues",
       "query": "state:open repo:${owner}/${repository} sort:created-desc"
     }
-  ]
+  ],
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "Dracula"
 }
