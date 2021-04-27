@@ -136,5 +136,8 @@
     }
   ],
   "window.zoomLevel": -1,
-  "workbench.colorTheme": "Dracula"
+  "workbench.colorTheme": "Dracula",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.preferredDarkColorTheme": "Dracula"
 }
