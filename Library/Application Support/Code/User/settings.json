@@ -135,9 +135,9 @@
       "query": "state:open repo:${owner}/${repository} sort:created-desc"
     }
   ],
-  "window.zoomLevel": -1,
   "workbench.colorTheme": "Dracula",
   "window.autoDetectColorScheme": true,
   "workbench.preferredLightColorTheme": "GitHub Light",
-  "workbench.preferredDarkColorTheme": "Dracula"
+  "workbench.preferredDarkColorTheme": "Dracula",
+  "window.zoomLevel": -1
 }

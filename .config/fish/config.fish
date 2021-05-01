@@ -57,6 +57,8 @@ alias icat="kitty +kitten icat"
 
 alias c="code ."
 alias cx="code . && exit"
+alias o="open ."
+alias ox="open . && exit"
 
 alias ls=exa
 alias cat=bat
