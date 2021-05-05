@@ -139,5 +139,6 @@
   "window.autoDetectColorScheme": true,
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.preferredDarkColorTheme": "Dracula",
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "editor.accessibilitySupport": "off"
 }

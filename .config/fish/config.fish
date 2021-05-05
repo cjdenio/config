@@ -49,6 +49,8 @@ if status --is-interactive
     abbr --add --global pg ping google.com -v
     
     abbr --add --global f fcd
+
+    abbr --add --global kube kubectl
 end
 
 alias gotchi-dokku="/usr/bin/env ssh dokku@52.33.253.206 -q -t -p 3022"
@@ -77,5 +79,5 @@ status --is-interactive; and source (rbenv init -|psub)
 # Environment variables
 set -x EDITOR nvim
 
-test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+# test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
