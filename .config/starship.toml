@@ -3,3 +3,6 @@ disabled = false
 use_12hr = true
 format = "[$time]($style) "
 time_format = "%l:%M%P"
+
+[jobs]
+disabled = true
