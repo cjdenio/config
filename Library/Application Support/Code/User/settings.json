@@ -8,7 +8,6 @@
   "workbench.productIconTheme": "icons-carbon",
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
   "window.titleSeparator": " ⚡️ ",
-  "workbench.sideBar.location": "right",
 
   // Git
   "git.enableSmartCommit": true,
@@ -139,6 +138,7 @@
   "window.autoDetectColorScheme": true,
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.preferredDarkColorTheme": "Dracula",
-  "window.zoomLevel": -1,
-  "editor.accessibilitySupport": "off"
+  "editor.accessibilitySupport": "off",
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": -1
 }

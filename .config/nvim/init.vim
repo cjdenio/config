@@ -1,6 +1,3 @@
-" Specify a directory for plugins
-" - For Neovim: stdpath('data') . '/plugged'
-" - Avoid using standard Vim directory names like 'plugin'
 call plug#begin(stdpath('data') . '/plugged')
 
 Plug 'dracula/vim', { 'as': 'dracula' }
@@ -28,10 +25,9 @@ Plug 'sbdchd/neoformat'
 
 Plug 'wakatime/vim-wakatime'
 
-" Languages
-Plug 'rust-lang/rust.vim'
-Plug 'fatih/vim-go'
-Plug 'evanleck/vim-svelte'
+Plug 'sheerun/vim-polyglot'
+
+Plug 'adelarsq/vim-matchit'
 
 call plug#end()
 
@@ -45,10 +41,11 @@ nnoremap <leader>fs :w<CR>
 
 augroup fmt
   autocmd!
-  autocmd BufWritePre * undojoin | Neoformat
+  au BufWritePre * try | undojoin | Neoformat | catch /^Vim\%((\a\+)\)\=:E790/ | finally | silent Neoformat | endtry
 augroup END
 
 set nu rnu
+set ignorecase
 
 autocmd BufWinEnter * silent NERDTreeMirror
 
@@ -72,3 +69,5 @@ autocmd BufNewFile,BufRead captain-definition,.prettierrc set ft=json
 set termguicolors
 
 let g:pear_tree_repeatable_expand = 0
+
+command! Lazygit tabe term://lazygit
