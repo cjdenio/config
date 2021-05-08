@@ -47,6 +47,7 @@ augroup END
 
 set nu rnu
 set ignorecase
+set cursorline
 
 autocmd BufWinEnter * silent NERDTreeMirror
 
