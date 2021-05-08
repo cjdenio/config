@@ -17,6 +17,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
+Plug 'mhinz/vim-startify'
 
 Plug 'airblade/vim-gitgutter'
 
@@ -54,8 +55,8 @@ let NERDTreeMinimalUI = 1
 let NERDTreeShowHidden = 1
 
 " Start NERDTree when Vim is started without file arguments.
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 
 nnoremap <silent> <expr> <Leader><Leader> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
 
@@ -71,3 +72,17 @@ set termguicolors
 let g:pear_tree_repeatable_expand = 0
 
 command! Lazygit tabe term://lazygit
+command! Term bel 15split +term | startinsert
+command! TTerm tabedit +term | startinsert
+command! Reload source $MYVIMRC
+
+autocmd VimEnter *
+      \   if !argc()
+      \ |   Startify
+      \ |   NERDTree
+      \ |   wincmd w
+      \ | endif
+
+autocmd TermOpen * setlocal nonumber norelativenumber
+
+" :tnoremap <Esc> <C-\><C-n>
