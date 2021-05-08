@@ -73,6 +73,7 @@ let g:pear_tree_repeatable_expand = 0
 
 command! Lazygit tabe term://lazygit
 command! Term bel 15split +term | startinsert
+command! VTerm bel vsplit +term | startinsert
 command! TTerm tabedit +term | startinsert
 command! Reload source $MYVIMRC
 
