@@ -87,3 +87,10 @@ autocmd VimEnter *
 autocmd TermOpen * setlocal nonumber norelativenumber
 
 " :tnoremap <Esc> <C-\><C-n>
+
+set mouse=a
+
+:map <ScrollWheelUp> <C-Y>
+:map <S-ScrollWheelUp> <C-U>
+:map <ScrollWheelDown> <C-E>
+:map <S-ScrollWheelDown> <C-D>
