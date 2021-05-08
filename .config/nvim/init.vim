@@ -30,6 +30,8 @@ Plug 'sheerun/vim-polyglot'
 
 Plug 'adelarsq/vim-matchit'
 
+Plug 'mg979/vim-visual-multi'
+
 call plug#end()
 
 colorscheme dracula
@@ -72,10 +74,20 @@ set termguicolors
 
 let g:pear_tree_repeatable_expand = 0
 
-command! Lazygit tabedit term://lazygit | startinsert
-command! Term belowright 15split +term | startinsert
-command! VTerm belowright vsplit +term | startinsert
-command! TTerm tabedit +term | startinsert
+command! -bar Lazygit tabedit term://lazygit | startinsert
+command! -bar BelTerm belowright 15split +term
+command! -bar VTerm belowright vsplit +term
+command! -bar TTerm tabedit +term
+
+command! -range=1 Term
+      \ BelTerm
+      \ | let num = 0
+      \ | while num <= <count> - 2
+      \ |   let num = num + 1
+      \ |   VTerm
+      \ | endwhile
+      \ | wincmd k
+
 command! Reload source $MYVIMRC
 
 autocmd VimEnter *
@@ -85,13 +97,27 @@ autocmd VimEnter *
       \ |   wincmd w
       \ | endif
 
-autocmd TermOpen * setlocal nonumber norelativenumber
+autocmd TermOpen * setlocal nonumber norelativenumber nocursorline
 
 " :tnoremap <Esc> <C-\><C-n>
 
 set mouse=a
 
-:map <ScrollWheelUp> <C-Y>
-:map <S-ScrollWheelUp> <C-U>
-:map <ScrollWheelDown> <C-E>
-:map <S-ScrollWheelDown> <C-D>
+map <ScrollWheelUp> <C-Y>
+map <S-ScrollWheelUp> <C-U>
+map <ScrollWheelDown> <C-E>
+map <S-ScrollWheelDown> <C-D>
+
+let g:who = {
+      \ 'caleb': 'CALEB'
+      \ }
+
+function Caleb()
+  echo g:who['caleb']
+endfunction
+
+nnoremap <Leader>c :call Caleb()<CR>
+
+nnoremap <Leader>h :noh<CR>
+
+let g:startify_change_to_dir = 0
