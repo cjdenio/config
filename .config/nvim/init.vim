@@ -64,7 +64,6 @@ autocmd BufNewFile,BufRead *.java nnoremap <buffer>
                   \ <Bar> wincmd k<CR>
 nnoremap <silent> <expr> <Leader><Leader>
                   \ (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
-command! Test source expand("%:p")
 
 " coc-related keybindings
 nmap <leader>rn <Plug>(coc-rename)
@@ -133,7 +132,6 @@ autocmd VimEnter *
       \ | endif
 
 autocmd TermOpen * setlocal nonumber norelativenumber nocursorline
-
 
 map <ScrollWheelUp> <C-Y>
 map <S-ScrollWheelUp> <C-U>
