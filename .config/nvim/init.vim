@@ -7,7 +7,8 @@ call plug#begin(stdpath('data') . '/plugged')
 
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'tmsvg/pear-tree'
-Plug 'tpope/vim-commentary'
+" Plug 'tpope/vim-commentary'
+Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-surround'
 Plug 'bkad/CamelCaseMotion'
 Plug 'vim-scripts/ReplaceWithRegister'
