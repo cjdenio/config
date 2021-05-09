@@ -56,5 +56,4 @@ vscodevim.vim
 Vtrois.gitmoji-vscode
 WakaTime.vscode-wakatime
 wingrunr21.vscode-ruby
-withfig.fig
 wpilibsuite.vscode-wpilib

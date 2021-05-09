@@ -1,3 +1,8 @@
+"
+"
+" PLUGINS
+"
+"
 call plug#begin(stdpath('data') . '/plugged')
 
 Plug 'dracula/vim', { 'as': 'dracula' }
@@ -34,46 +39,65 @@ Plug 'mg979/vim-visual-multi'
 
 call plug#end()
 
-colorscheme dracula
+"
+"
+" CONFIRUGATION
+"
+"
+colorscheme dracula " Color theme
+set nu rnu          " Line numbers
+set ignorecase      " Case-insensitive searches
+set cursorline      " Highlight the line under the cursor
+set mouse=a         " Mouse support
+set termguicolors
 
-let g:camelcasemotion_key = '<leader>'
-
+"
+"
+" KEYBINDINGS
+"
+"
 let mapleader = " "
-
 nnoremap <leader>fs :w<CR>
+nnoremap <Leader>h :noh<CR>
+autocmd BufNewFile,BufRead *.java nnoremap <buffer>
+                  \ <Leader>d :bel 15split term://./gradlew build
+                  \ <Bar> wincmd k<CR>
+nnoremap <silent> <expr> <Leader><Leader>
+                  \ (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
+command! Test source expand("%:p")
 
-augroup fmt
-  autocmd!
-  au BufWritePre * try | undojoin | Neoformat | catch /^Vim\%((\a\+)\)\=:E790/ | finally | silent Neoformat | endtry
-augroup END
+" coc-related keybindings
+nmap <leader>rn <Plug>(coc-rename)
+nmap <silent> gd <Plug>(coc-definition)
 
-set nu rnu
-set ignorecase
-set cursorline
-
-autocmd BufWinEnter * silent NERDTreeMirror
+"
+"
+" PLUGIN CONFIG
+"
+"
+let g:camelcasemotion_key = '<leader>'
 
 let NERDTreeWinPos="right"
 let NERDTreeMinimalUI = 1
 let NERDTreeShowHidden = 1
 
-" Start NERDTree when Vim is started without file arguments.
-" autocmd StdinReadPre * let s:std_in=1
-" autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
-
-nnoremap <silent> <expr> <Leader><Leader> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
-
-" coc-related mappings
-nmap <leader>rn <Plug>(coc-rename)
-nmap <silent> gd <Plug>(coc-definition)
-
-" Set JSON for captain-definition files
-autocmd BufNewFile,BufRead captain-definition,.prettierrc set ft=json
-
-set termguicolors
-
 let g:pear_tree_repeatable_expand = 0
 
+let g:startify_change_to_dir = 0
+
+" Autoformat with :Neoformat
+augroup fmt
+  autocmd!
+  au BufWritePre * try | undojoin | Neoformat | catch /^Vim\%((\a\+)\)\=:E790/ | finally | silent Neoformat | endtry
+augroup END
+
+autocmd BufWinEnter * silent NERDTreeMirror
+
+"
+"
+" CUSTOM COMMANDS
+"
+"
 command! -bar Lazygit tabedit term://lazygit | startinsert
 command! -bar BelTerm belowright 15split +term
 command! -bar VTerm belowright vsplit +term
@@ -88,8 +112,19 @@ command! -range=1 Term
       \ | endwhile
       \ | wincmd k
 
-command! Reload source $MYVIMRC
+"
+"
+" OTHER (stuff i'm too lazy to categorize)
+"
+"
 
+" Automatically source .vim files on save
+autocmd BufWritePost *.vim source %
+
+" Set JSON for CapRover and Prettier config files
+autocmd BufNewFile,BufRead captain-definition,.prettierrc set ft=json
+
+" Open NERDTree and Startify on Vim open
 autocmd VimEnter *
       \   if !argc()
       \ |   Startify
@@ -99,25 +134,8 @@ autocmd VimEnter *
 
 autocmd TermOpen * setlocal nonumber norelativenumber nocursorline
 
-" :tnoremap <Esc> <C-\><C-n>
-
-set mouse=a
 
 map <ScrollWheelUp> <C-Y>
 map <S-ScrollWheelUp> <C-U>
 map <ScrollWheelDown> <C-E>
 map <S-ScrollWheelDown> <C-D>
-
-let g:who = {
-      \ 'caleb': 'CALEB'
-      \ }
-
-function Caleb()
-  echo g:who['caleb']
-endfunction
-
-nnoremap <Leader>c :call Caleb()<CR>
-
-nnoremap <Leader>h :noh<CR>
-
-let g:startify_change_to_dir = 0
