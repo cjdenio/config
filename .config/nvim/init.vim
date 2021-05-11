@@ -49,8 +49,10 @@ colorscheme dracula " Color theme
 set nu rnu          " Line numbers
 set ignorecase      " Case-insensitive searches
 set cursorline      " Highlight the line under the cursor
-set mouse=a         " Mouse support
 set termguicolors
+
+autocmd TermOpen * setlocal
+                  \ nonumber norelativenumber nocursorline  " Disable certain properties in terminal windows
 
 "
 "
@@ -61,7 +63,7 @@ let mapleader = " "
 nnoremap <leader>fs :w<CR>
 nnoremap <Leader>h :noh<CR>
 autocmd BufNewFile,BufRead *.java nnoremap <buffer>
-                  \ <Leader>d :bel 15split term://./gradlew build
+                  \ <Leader>d :bel 15split term://./gradlew deploy
                   \ <Bar> wincmd k<CR>
 nnoremap <silent> <expr> <Leader><Leader>
                   \ (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
@@ -132,9 +134,3 @@ autocmd VimEnter *
       \ |   wincmd w
       \ | endif
 
-autocmd TermOpen * setlocal nonumber norelativenumber nocursorline
-
-map <ScrollWheelUp> <C-Y>
-map <S-ScrollWheelUp> <C-U>
-map <ScrollWheelDown> <C-E>
-map <S-ScrollWheelDown> <C-D>
