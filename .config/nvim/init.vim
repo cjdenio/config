@@ -42,7 +42,7 @@ call plug#end()
 
 "
 "
-" CONFIRUGATION
+" CONFIGURATION
 "
 "
 colorscheme dracula " Color theme
@@ -50,9 +50,10 @@ set nu rnu          " Line numbers
 set ignorecase      " Case-insensitive searches
 set cursorline      " Highlight the line under the cursor
 set termguicolors
+autocmd FileType markdown set spell  " Spellchecking
 
 autocmd TermOpen * setlocal
-                  \ nonumber norelativenumber nocursorline  " Disable certain properties in terminal windows
+                  \ nospell nonumber norelativenumber nocursorline  " Disable certain properties in terminal windows
 
 "
 "
@@ -68,6 +69,10 @@ autocmd BufNewFile,BufRead *.java nnoremap <buffer>
                   \ <Bar> wincmd k<CR>
 nnoremap <silent> <expr> <Leader><Leader>
                   \ (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
+
+" navigate soft lines
+noremap <silent> k gk
+noremap <silent> j gj
 
 " coc-related keybindings
 nmap <leader>rn <Plug>(coc-rename)
