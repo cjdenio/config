@@ -61,6 +61,7 @@ autocmd TermOpen * setlocal
 "
 let mapleader = " "
 nnoremap <leader>fs :w<CR>
+nnoremap <leader>q :q<CR>
 nnoremap <Leader>h :noh<CR>
 autocmd BufNewFile,BufRead *.java nnoremap <buffer>
                   \ <Leader>d :bel 15split term://./gradlew deploy
@@ -71,6 +72,10 @@ nnoremap <silent> <expr> <Leader><Leader>
 " coc-related keybindings
 nmap <leader>rn <Plug>(coc-rename)
 nmap <silent> gd <Plug>(coc-definition)
+nnoremap <silent> gh :call CocActionAsync('doHover')<CR>
+nmap <silent> <leader>ac  <Plug>(coc-codeaction-cursor)
+
+autocmd CursorHold * silent call CocActionAsync('highlight')
 
 "
 "
