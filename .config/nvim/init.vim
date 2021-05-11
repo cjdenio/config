@@ -108,7 +108,7 @@ autocmd BufWinEnter * silent NERDTreeMirror
 command! -bar Lazygit tabedit term://lazygit | startinsert
 command! -bar BelTerm belowright 15split +term
 command! -bar VTerm belowright vsplit +term
-command! -bar TTerm tabedit +term
+command! -bar TTerm tabedit +term | startinsert
 
 command! -range=1 Term
       \ BelTerm
