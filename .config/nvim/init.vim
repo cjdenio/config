@@ -97,6 +97,17 @@ let g:pear_tree_repeatable_expand = 0
 
 let g:startify_change_to_dir = 0
 
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_types = 1
+
 " Autoformat with :Neoformat
 augroup fmt
   autocmd!
