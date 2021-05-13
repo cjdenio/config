@@ -6,6 +6,9 @@
 call plug#begin(stdpath('data') . '/plugged')
 
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'Matt-Gleich/blackbird.vim'
+Plug 'ghifarit53/tokyonight-vim'
+
 Plug 'tmsvg/pear-tree'
 " Plug 'tpope/vim-commentary'
 Plug 'tomtom/tcomment_vim'
@@ -46,11 +49,11 @@ call plug#end()
 " CONFIGURATION
 "
 "
+set termguicolors
 colorscheme dracula " Color theme
 set nu rnu          " Line numbers
 set ignorecase      " Case-insensitive searches
 set cursorline      " Highlight the line under the cursor
-set termguicolors
 autocmd FileType markdown set spell  " Spellchecking
 
 autocmd TermOpen * setlocal
