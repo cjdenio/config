@@ -20,6 +20,7 @@ Plug 'mileszs/ack.vim'
 
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
