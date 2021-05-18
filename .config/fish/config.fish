@@ -8,24 +8,25 @@
 
 # Functions
 function fcd --wraps "fgh ls"
-  if ! cd (fgh ls $argv) > /dev/null
-    echo "Failed to find repository"; return 1
-  end
+    if ! cd (fgh ls $argv) >/dev/null
+        echo "Failed to find repository"
+        return 1
+    end
 end
 
-if test $TERM = "xterm-kitty"
-  function ssh
-    kitty +kitten ssh $argv
-  end
+if test $TERM = xterm-kitty
+    function ssh
+        kitty +kitten ssh $argv
+    end
 end
 
 function mkcd
-  mkdir $argv
-  cd $argv
+    mkdir $argv
+    cd $argv
 end
 
 function kccdownload
-  curl $argv[1] --output - | ffmpeg -i - -ab 48k $argv[2]
+    curl $argv[1] --output - | ffmpeg -i - -ab 48k $argv[2]
 end
 
 # Aliases/Abbreviations
@@ -47,7 +48,7 @@ if status --is-interactive
     abbr --add --global cl clear
     abbr --add --global nf neofetch
     abbr --add --global pg ping google.com -v
-    
+
     abbr --add --global f fcd
 
     abbr --add --global kube kubectl
@@ -80,4 +81,3 @@ status --is-interactive; and source (rbenv init -|psub)
 set -x EDITOR nvim
 
 # test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
-

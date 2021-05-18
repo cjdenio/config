@@ -5,31 +5,30 @@
 "
 call plug#begin(stdpath('data') . '/plugged')
 
+" Themes
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'Matt-Gleich/blackbird.vim'
 Plug 'ghifarit53/tokyonight-vim'
 
 Plug 'tmsvg/pear-tree'
-" Plug 'tpope/vim-commentary'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-surround'
 Plug 'bkad/CamelCaseMotion'
 Plug 'vim-scripts/ReplaceWithRegister'
 Plug 'vim-scripts/argtextobj.vim'
 
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
 
 Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'mhinz/vim-startify'
-
-Plug 'airblade/vim-gitgutter'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sbdchd/neoformat'
@@ -42,6 +41,11 @@ Plug 'adelarsq/vim-matchit'
 
 Plug 'mg979/vim-visual-multi'
 
+" Git stuff
+Plug 'tpope/vim-fugitive'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 "
@@ -49,6 +53,7 @@ call plug#end()
 " CONFIGURATION
 "
 "
+set noswapfile
 set termguicolors
 colorscheme dracula " Color theme
 set nu rnu          " Line numbers

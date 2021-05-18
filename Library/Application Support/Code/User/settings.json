@@ -140,5 +140,6 @@
   "workbench.preferredDarkColorTheme": "Dracula",
   "editor.accessibilitySupport": "off",
   "workbench.sideBar.location": "right",
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
