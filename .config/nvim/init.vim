@@ -46,6 +46,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
 
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 call plug#end()
 
 "
@@ -96,6 +99,10 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 " PLUGIN CONFIG
 "
 "
+let g:UltiSnipsExpandTrigger="<tab>"
+" let g:UltiSnipsJumpForwardTrigger="<c-b>"
+" let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
 let g:camelcasemotion_key = '<leader>'
 
 let NERDTreeWinPos="right"

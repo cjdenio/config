@@ -1,0 +1,12 @@
+snippet iferr
+if err != nil {
+	$1
+}
+endsnippet
+
+snippet lerr
+if ${1:err} != nil {
+	log.Fatal($1)
+}
+endsnippet
+
