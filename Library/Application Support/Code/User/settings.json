@@ -108,6 +108,10 @@
     {
       "before": ["<leader>", "q"],
       "commands": [":q"]
+    },
+    {
+      "before": ["<leader>", "a", "c"],
+      "commands": ["editor.action.quickFix"]
     }
   ],
   "vim.camelCaseMotion.enable": true,
@@ -145,5 +149,6 @@
   "editor.accessibilitySupport": "off",
   "workbench.sideBar.location": "right",
   "window.zoomLevel": -1,
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.lineNumbers": "relative"
 }
