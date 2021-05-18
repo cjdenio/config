@@ -82,7 +82,7 @@
   // Vim
   "vim.normalModeKeyBindings": [
     {
-      "before": ["g", "s"],
+      "before": ["<leader>", "r", "n"],
       "commands": ["editor.action.rename"]
     },
     {
@@ -104,6 +104,10 @@
     {
       "before": ["<leader>", "<leader>"],
       "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "commands": [":q"]
     }
   ],
   "vim.camelCaseMotion.enable": true,
