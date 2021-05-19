@@ -43,6 +43,7 @@ rust-lang.rust
 silvenon.mdx
 Sujan.code-blue
 svelte.svelte-vscode
+syler.sass-indented
 tonybaloney.vscode-pets
 VisualStudioExptTeam.vscodeintellicode
 vlanguage.vscode-vlang

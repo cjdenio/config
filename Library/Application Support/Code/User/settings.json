@@ -67,7 +67,6 @@
   "docker.dockerComposeBuild": false,
   "js/ts.implicitProjectConfig.checkJs": true,
   "wpilib.offline": true,
-  "javascript.validate.enable": false,
   "remote.SSH.path": "/usr/bin/ssh",
   "workbench.editorAssociations": [
     {
