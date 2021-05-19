@@ -5,8 +5,17 @@ if err != nil {
 endsnippet
 
 snippet lerr
-if ${1:err} != nil {
-	log.Fatal($1)
+if err != nil {
+	log.Fatal(err)
 }
 endsnippet
 
+snippet gin
+r.${1:GET}("/$2", func(c *gin.Context) {
+	$0
+})
+endsnippet
+
+snippet print
+fmt.Println("$1")
+endsnippet

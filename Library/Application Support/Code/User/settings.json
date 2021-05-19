@@ -150,5 +150,6 @@
   "workbench.sideBar.location": "right",
   "window.zoomLevel": -1,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.lineNumbers": "relative"
+  "editor.lineNumbers": "relative",
+  "screencastMode.keyboardOverlayTimeout": 2000
 }

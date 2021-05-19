@@ -36,6 +36,7 @@ Plug 'sbdchd/neoformat'
 Plug 'wakatime/vim-wakatime'
 
 Plug 'sheerun/vim-polyglot'
+Plug 'mattn/emmet-vim'
 
 Plug 'adelarsq/vim-matchit'
 
@@ -56,6 +57,7 @@ call plug#end()
 " CONFIGURATION
 "
 "
+set updatetime=100
 set noswapfile
 set termguicolors
 colorscheme dracula " Color theme
