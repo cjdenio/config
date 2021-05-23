@@ -150,5 +150,6 @@
   "window.zoomLevel": -1,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.lineNumbers": "relative",
-  "screencastMode.keyboardOverlayTimeout": 2000
+  "screencastMode.keyboardOverlayTimeout": 2000,
+  "vim.neovimPath": "/opt/homebrew/bin/nvim"
 }

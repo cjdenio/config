@@ -75,6 +75,15 @@ alias 💤="zsh"
 # External tools
 starship init fish | source
 
+# Right prompt
+function fish_right_prompt
+    set_color green
+    echo -n " ❮ "
+    set_color -o yellow
+    date "+%I:%M %p"
+    set_color normal
+end
+
 status --is-interactive; and source (rbenv init -|psub)
 
 # Environment variables

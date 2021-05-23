@@ -9,6 +9,7 @@ call plug#begin(stdpath('data') . '/plugged')
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'Matt-Gleich/blackbird.vim'
 Plug 'ghifarit53/tokyonight-vim'
+Plug 'morhetz/gruvbox'
 
 Plug 'tmsvg/pear-tree'
 Plug 'tomtom/tcomment_vim'
@@ -83,6 +84,7 @@ autocmd BufNewFile,BufRead *.java nnoremap <buffer>
                   \ <Bar> wincmd k<CR>
 nnoremap <silent> <expr> <Leader><Leader>
                   \ (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
+nnoremap <Leader>t :NERDTreeToggle<CR>
 
 " navigate soft lines
 noremap <silent> k gk
@@ -163,7 +165,7 @@ command! -range=1 Term
 autocmd BufWritePost *.vim source %
 
 " Set JSON for CapRover and Prettier config files
-autocmd BufNewFile,BufRead captain-definition,.prettierrc set ft=json
+autocmd BufNewFile,BufRead captain-definition,.prettierrc,*.code-workspace set ft=json
 
 " Open NERDTree and Startify on Vim open
 autocmd VimEnter *

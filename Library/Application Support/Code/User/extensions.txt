@@ -38,6 +38,7 @@ pnp.polacode
 rangav.vscode-thunder-client
 rebornix.ruby
 redhat.java
+redhat.vscode-commons
 redhat.vscode-yaml
 rust-lang.rust
 silvenon.mdx
