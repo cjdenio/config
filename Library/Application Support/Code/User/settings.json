@@ -4,8 +4,6 @@
   // Display
   "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.productIconTheme": "icons-carbon",
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
   "window.titleSeparator": " ⚡️ ",
 
@@ -141,7 +139,6 @@
       "query": "state:open repo:${owner}/${repository} sort:created-desc"
     }
   ],
-  "workbench.colorTheme": "Dracula",
   "window.autoDetectColorScheme": true,
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.preferredDarkColorTheme": "Dracula",
@@ -151,5 +148,10 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.lineNumbers": "relative",
   "screencastMode.keyboardOverlayTimeout": 2000,
-  "vim.neovimPath": "/opt/homebrew/bin/nvim"
+  "vim.neovimPath": "/opt/homebrew/bin/nvim",
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.productIconTheme": "icons-carbon",
+  "clock.alignment": "Right",
+  "clock.priority": -1
 }

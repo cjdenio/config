@@ -1,3 +1,4 @@
+angelo-breuer.clock
 antfu.icons-carbon
 apollographql.vscode-apollo
 be5invis.toml
@@ -33,6 +34,7 @@ ms-toolsai.jupyter
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.cpptools
+ms-vsliveshare.vsliveshare
 octref.vetur
 pnp.polacode
 rangav.vscode-thunder-client

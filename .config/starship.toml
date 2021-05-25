@@ -6,3 +6,6 @@ time_format = "%l:%M%P"
 
 [jobs]
 disabled = true
+
+[line_break]
+disabled = false
