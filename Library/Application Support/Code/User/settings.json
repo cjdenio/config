@@ -84,7 +84,11 @@
     },
     {
       "before": ["<leader>", "f", "s"],
-      "commands": ["workbench.action.files.save"]
+      "commands": [":w"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": [":w"]
     },
     {
       "before": ["<leader>", "t"],
@@ -169,5 +173,6 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.productIconTheme": "icons-carbon",
   "clock.alignment": "Right",
-  "clock.priority": -1
+  "clock.priority": -1,
+  "clock.format": "hh:MM tt"
 }
