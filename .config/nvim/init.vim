@@ -78,7 +78,7 @@ autocmd TermOpen * setlocal
 let mapleader = " "
 nnoremap <leader>fs :w<CR>
 nnoremap <leader>q :q<CR>
-nnoremap <Leader>h :noh<CR>
+nnoremap <silent> <Leader>hh :noh<CR>
 autocmd BufNewFile,BufRead *.java nnoremap <buffer>
                   \ <Leader>d :bel 15split term://./gradlew deploy
                   \ <Bar> wincmd k<CR>

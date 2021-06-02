@@ -12,7 +12,11 @@ function fish_command_not_found
     set_color -d
     echo -n "Command not found: "
     set_color normal
-    echo $argv
+    set_color ff5555
+    echo -n "$argv[1] "
+    set_color bd93f9
+    echo $argv[2..]
+    set_color normal
 end
 
 function fcd --wraps "fgh ls"
@@ -98,3 +102,7 @@ status --is-interactive; and source (rbenv init -|psub)
 set -x EDITOR nvim
 
 # test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
+# Keybindings
+bind -M insert \cF accept-autosuggestion
+bind q accept-autosuggestion
