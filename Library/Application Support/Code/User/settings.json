@@ -163,7 +163,6 @@
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.preferredDarkColorTheme": "Dracula",
   "editor.accessibilitySupport": "off",
-  "workbench.sideBar.location": "right",
   "window.zoomLevel": -1,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.lineNumbers": "relative",
@@ -174,5 +173,7 @@
   "workbench.productIconTheme": "icons-carbon",
   "clock.alignment": "Right",
   "clock.priority": -1,
-  "clock.format": "hh:MM tt"
+  "clock.format": "hh:MM tt",
+  "vscode-pets.position": "explorer",
+  "workbench.sideBar.location": "right"
 }
