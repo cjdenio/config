@@ -7,6 +7,14 @@
 # end
 
 # Functions
+function fish_command_not_found
+    echo -n "🤔 "
+    set_color -d
+    echo -n "Command not found: "
+    set_color normal
+    echo $argv
+end
+
 function fcd --wraps "fgh ls"
     if ! cd (fgh ls $argv) >/dev/null
         echo "Failed to find repository"
