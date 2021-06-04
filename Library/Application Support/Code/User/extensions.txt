@@ -3,6 +3,7 @@ antfu.icons-carbon
 apollographql.vscode-apollo
 be5invis.toml
 bierner.emojisense
+bmewburn.vscode-intelephense-client
 bradlc.vscode-tailwindcss
 CalebDenio.fgh-code
 CalebDenio.vs-slack
@@ -42,6 +43,7 @@ rebornix.ruby
 redhat.java
 redhat.vscode-commons
 redhat.vscode-yaml
+ritwickdey.LiveServer
 rust-lang.rust
 silvenon.mdx
 Sujan.code-blue
