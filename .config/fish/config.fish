@@ -56,6 +56,7 @@ if status --is-interactive
     abbr --add --global dclm docker compose logs -f main
 
     abbr --add --global dps docker ps
+    abbr --add --global dpsa docker ps -a
 
     abbr --add --global cl clear
     abbr --add --global nf neofetch
@@ -105,4 +106,5 @@ set -x EDITOR nvim
 
 # Keybindings
 bind -M insert \cF accept-autosuggestion
+bind -M insert \cP history-search-backward
 bind q accept-autosuggestion
