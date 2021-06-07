@@ -2,7 +2,7 @@
   "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
 
   // Display
-  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "VictorMono Nerd Font, FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
   "window.titleSeparator": " ⚡️ ",
@@ -103,7 +103,11 @@
       "commands": ["wpilibcore.deployCode"]
     },
     {
-      "before": ["<leader>", "<leader>"],
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<leader>", "e"],
       "commands": ["workbench.action.quickOpen"]
     },
     {
@@ -163,7 +167,6 @@
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.preferredDarkColorTheme": "Dracula",
   "editor.accessibilitySupport": "off",
-  "window.zoomLevel": -1,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.lineNumbers": "relative",
   "screencastMode.keyboardOverlayTimeout": 2000,
@@ -249,5 +252,6 @@
     "zip",
     "zlib",
     "wordpress"
-  ]
+  ],
+  "window.zoomLevel": -1
 }
