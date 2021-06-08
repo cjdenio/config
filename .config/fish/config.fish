@@ -107,4 +107,5 @@ set -x EDITOR nvim
 # Keybindings
 bind -M insert \cF accept-autosuggestion
 bind -M insert \cP history-search-backward
-bind q accept-autosuggestion
+bind -M insert \cN history-search-forward
+bind q exit
