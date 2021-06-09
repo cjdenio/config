@@ -133,6 +133,14 @@
     {
       "before": ["<leader>", "c", "a"],
       "commands": ["workbench.action.closeAllEditors"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["workbench.view.scm"]
+    },
+    {
+      "before": ["b"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
     }
   ],
   "vim.camelCaseMotion.enable": true,
@@ -255,5 +263,6 @@
   ],
   "window.zoomLevel": -1,
   "editor.fontSize": 13,
-  "terminal.integrated.fontSize": 13
+  "terminal.integrated.fontSize": 13,
+  "workbench.experimental.useCustomHover": false
 }
