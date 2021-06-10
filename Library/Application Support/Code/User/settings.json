@@ -137,10 +137,6 @@
     {
       "before": ["<leader>", "g"],
       "commands": ["workbench.view.scm"]
-    },
-    {
-      "before": ["b"],
-      "commands": ["workbench.action.toggleSidebarVisibility"]
     }
   ],
   "vim.camelCaseMotion.enable": true,
