@@ -258,5 +258,9 @@
   "editor.fontSize": 13,
   "terminal.integrated.fontSize": 13,
   "workbench.experimental.useCustomHover": false,
-  "security.workspace.trust.enabled": false
+  "security.workspace.trust.enabled": false,
+  "codescript.searchPaths": [
+    "/Users/calebdenio/.config/codescript"
+  ],
+  "liveServer.settings.donotShowInfoMsg": true
 }
