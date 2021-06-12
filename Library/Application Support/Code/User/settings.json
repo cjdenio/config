@@ -116,6 +116,10 @@
       "commands": ["workbench.action.closeEditorsToTheRight"]
     },
     {
+      "before": ["<leader>", "c", "l"],
+      "commands": ["workbench.action.closeEditorsToTheLeft"]
+    },
+    {
       "before": ["<leader>", "c", "o"],
       "commands": ["workbench.action.closeOtherEditors"]
     },
@@ -259,8 +263,7 @@
   "terminal.integrated.fontSize": 13,
   "workbench.experimental.useCustomHover": false,
   "security.workspace.trust.enabled": false,
-  "codescript.searchPaths": [
-    "/Users/calebdenio/.config/codescript"
-  ],
-  "liveServer.settings.donotShowInfoMsg": true
+  "codescript.searchPaths": ["/Users/calebdenio/.config/codescript"],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.tabs.focusMode": "singleClick"
 }
