@@ -265,5 +265,6 @@
   "security.workspace.trust.enabled": false,
   "codescript.searchPaths": ["/Users/calebdenio/.config/codescript"],
   "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.tabs.focusMode": "singleClick"
+  "terminal.integrated.tabs.focusMode": "singleClick",
+  "vsicons.dontShowNewVersionMessage": true
 }
