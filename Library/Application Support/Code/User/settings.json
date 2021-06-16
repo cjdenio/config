@@ -133,7 +133,7 @@
     },
     {
       "before": ["<leader>", "c", "a"],
-      "commands": ["workbench.action.closeAllEditors"]
+      "commands": ["workbench.action.closeEditorsInGroup"]
     },
     {
       "before": ["<leader>", "g"],
@@ -183,7 +183,6 @@
   "clock.priority": -1,
   "clock.format": "hh:MM tt",
   "vscode-pets.position": "explorer",
-  "workbench.sideBar.location": "right",
   "intelephense.stubs": [
     "apache",
     "bcmath",
@@ -258,7 +257,6 @@
     "zlib",
     "wordpress"
   ],
-  "window.zoomLevel": -1,
   "editor.fontSize": 13,
   "terminal.integrated.fontSize": 13,
   "workbench.experimental.useCustomHover": false,
@@ -266,5 +264,7 @@
   "codescript.searchPaths": ["/Users/calebdenio/.config/codescript"],
   "liveServer.settings.donotShowInfoMsg": true,
   "terminal.integrated.tabs.focusMode": "singleClick",
-  "vsicons.dontShowNewVersionMessage": true
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": -1
 }
