@@ -266,5 +266,8 @@
   "terminal.integrated.tabs.focusMode": "singleClick",
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.sideBar.location": "right",
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "files.associations": {
+    "captain-definition": "json"
+  }
 }
