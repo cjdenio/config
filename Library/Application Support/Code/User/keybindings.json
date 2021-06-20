@@ -5,19 +5,19 @@
     "command": "fgh-code.openProject"
   },
   {
-    "key": "ctrl+cmd+l",
-    "command": "workbench.action.moveEditorToNextGroup"
+    "key": "ctrl+cmd+j",
+    "command": "workbench.action.moveEditorToBelowGroup"
   },
   {
-    "key": "ctrl+cmd+right",
-    "command": "-workbench.action.moveEditorToNextGroup"
+    "key": "ctrl+cmd+k",
+    "command": "workbench.action.moveEditorToAboveGroup"
   },
   {
     "key": "ctrl+cmd+h",
-    "command": "workbench.action.moveEditorToPreviousGroup"
+    "command": "workbench.action.moveEditorToLeftGroup"
   },
   {
-    "key": "ctrl+cmd+left",
-    "command": "-workbench.action.moveEditorToPreviousGroup"
+    "key": "ctrl+cmd+l",
+    "command": "workbench.action.moveEditorToRightGroup"
   }
 ]
