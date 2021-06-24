@@ -1,20 +1,21 @@
 {
-  "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
-
-  // Display
-  "editor.fontFamily": "VictorMono Nerd Font, FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": true,
+  // Window style
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
   "window.titleSeparator": " ⚡️ ",
+
+  // Editor style/functionality
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "VictorMono Nerd Font, FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
 
   // Git
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "git.confirmSync": false,
 
-  "editor.formatOnSave": true,
-
-  // Language overrides
+  // Language-specific overrides
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -257,8 +258,6 @@
     "zlib",
     "wordpress"
   ],
-  "editor.fontSize": 13,
-  "terminal.integrated.fontSize": 13,
   "workbench.experimental.useCustomHover": false,
   "security.workspace.trust.enabled": false,
   "codescript.searchPaths": ["/Users/calebdenio/.config/codescript"],
@@ -269,5 +268,6 @@
   "window.zoomLevel": -1,
   "files.associations": {
     "captain-definition": "json"
-  }
+  },
+  "terminal.integrated.fontSize": 13
 }

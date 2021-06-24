@@ -16,6 +16,7 @@ denoland.vscode-deno
 dracula-theme.theme-dracula
 eamodio.gitlens
 esbenp.prettier-vscode
+firefox-devtools.vscode-firefox-debug
 GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
 golang.go
@@ -52,6 +53,7 @@ silvenon.mdx
 Sujan.code-blue
 svelte.svelte-vscode
 syler.sass-indented
+ThiagoLcioBittencourt.omni-dracula-theme
 tonybaloney.vscode-pets
 VisualStudioExptTeam.vscodeintellicode
 vlanguage.vscode-vlang
