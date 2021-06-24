@@ -17,6 +17,7 @@ dracula-theme.theme-dracula
 eamodio.gitlens
 esbenp.prettier-vscode
 firefox-devtools.vscode-firefox-debug
+formulahendry.code-runner
 GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
 golang.go
