@@ -269,5 +269,6 @@
   "files.associations": {
     "captain-definition": "json"
   },
-  "terminal.integrated.fontSize": 13
+  "terminal.integrated.fontSize": 13,
+  "workbench.editor.untitled.hint": "hidden"
 }
