@@ -54,6 +54,7 @@ silvenon.mdx
 Sujan.code-blue
 svelte.svelte-vscode
 syler.sass-indented
+TabNine.tabnine-vscode
 ThiagoLcioBittencourt.omni-dracula-theme
 tonybaloney.vscode-pets
 VisualStudioExptTeam.vscodeintellicode

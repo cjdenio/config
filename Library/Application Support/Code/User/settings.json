@@ -270,5 +270,6 @@
     "captain-definition": "json"
   },
   "terminal.integrated.fontSize": 13,
-  "workbench.editor.untitled.hint": "hidden"
+  "workbench.editor.untitled.hint": "hidden",
+  "tabnine.experimentalAutoImports": true
 }
