@@ -81,6 +81,10 @@
       "commands": ["editor.action.rename"]
     },
     {
+      "before": ["<leader>", "r", "u"],
+      "commands": ["code-runner.run"]
+    },
+    {
       "before": ["<leader>", "f", "s"],
       "commands": [":w"]
     },
@@ -271,5 +275,6 @@
   },
   "terminal.integrated.fontSize": 13,
   "workbench.editor.untitled.hint": "hidden",
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "code-runner.saveFileBeforeRun": true
 }
