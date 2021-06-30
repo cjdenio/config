@@ -1,0 +1,7 @@
+#!/bin/bash
+
+brew update && brew upgrade
+
+npm update -g
+
+rustup update
