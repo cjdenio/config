@@ -18,6 +18,7 @@ eamodio.gitlens
 esbenp.prettier-vscode
 firefox-devtools.vscode-firefox-debug
 formulahendry.code-runner
+GitHub.copilot
 GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
 golang.go

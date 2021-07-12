@@ -269,12 +269,26 @@
   "terminal.integrated.tabs.focusMode": "singleClick",
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.sideBar.location": "right",
-  "window.zoomLevel": -1,
   "files.associations": {
     "captain-definition": "json"
   },
   "terminal.integrated.fontSize": 13,
   "workbench.editor.untitled.hint": "hidden",
   "tabnine.experimentalAutoImports": true,
-  "code-runner.saveFileBeforeRun": true
+  "code-runner.saveFileBeforeRun": true,
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1,
+  "ruby.format": "rubocop",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "emmet.includeLanguages": {
+    "erb": "html"
+  }
 }
