@@ -270,7 +270,8 @@
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.sideBar.location": "right",
   "files.associations": {
-    "captain-definition": "json"
+    "captain-definition": "json",
+    "*.cow": "perl"
   },
   "terminal.integrated.fontSize": 13,
   "workbench.editor.untitled.hint": "hidden",
@@ -290,5 +291,6 @@
   },
   "emmet.includeLanguages": {
     "erb": "html"
-  }
+  },
+  "terminal.external.osxExec": "iTerm.app"
 }

@@ -166,6 +166,7 @@ autocmd BufWritePost *.vim source %
 
 " Set JSON for CapRover and Prettier config files
 autocmd BufNewFile,BufRead captain-definition,.prettierrc,*.code-workspace set ft=json
+autocmd BufNewFile,BufRead *.cow set ft=perl
 
 " Open NERDTree and Startify on Vim open
 autocmd VimEnter *
