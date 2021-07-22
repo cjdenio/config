@@ -21,6 +21,6 @@
 	},
 	"component": {
 		"prefix": ["comp", "component"],
-		"body": "export default function $1($2): ReactElement {\n\treturn (\n\t\t$0\n\t);\n}"
+		"body": "import React, { ReactElement } from \"react\";\n\nexport default function $TM_FILENAME_BASE($2): ReactElement {\n\treturn (\n\t\t$0\n\t);\n}"
 	}
 }

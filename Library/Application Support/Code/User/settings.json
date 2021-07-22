@@ -271,7 +271,8 @@
   "workbench.sideBar.location": "right",
   "files.associations": {
     "captain-definition": "json",
-    "*.cow": "perl"
+    "*.cow": "perl",
+    "*.go": "go"
   },
   "terminal.integrated.fontSize": 13,
   "workbench.editor.untitled.hint": "hidden",
