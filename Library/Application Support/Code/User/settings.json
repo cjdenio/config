@@ -8,6 +8,7 @@
   "editor.fontFamily": "VictorMono Nerd Font, FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 13,
   "editor.formatOnSave": true,
+  "editor.formatOnType": true,
   "editor.linkedEditing": true,
 
   // Git
@@ -293,5 +294,8 @@
   "emmet.includeLanguages": {
     "erb": "html"
   },
-  "terminal.external.osxExec": "iTerm.app"
+  "terminal.external.osxExec": "iTerm.app",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
