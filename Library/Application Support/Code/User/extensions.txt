@@ -55,6 +55,7 @@ redwoodjs.redwood
 ritwickdey.LiveServer
 rust-lang.rust
 silvenon.mdx
+streetsidesoftware.code-spell-checker
 Sujan.code-blue
 svelte.svelte-vscode
 syler.sass-indented

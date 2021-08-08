@@ -297,5 +297,9 @@
   "terminal.external.osxExec": "iTerm.app",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "cSpell.userWords": [
+    "sadge",
+    "upgrader"
+  ]
 }
