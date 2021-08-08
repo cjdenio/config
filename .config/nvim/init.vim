@@ -84,6 +84,8 @@ autocmd BufNewFile,BufRead *.java nnoremap <buffer>
                   \ <Bar> wincmd k<CR>
 nnoremap <silent> <expr> <Leader><Leader>
                   \ (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
+nnoremap <silent> <expr> <Leader>e
+                  \ (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
 nnoremap <Leader>t :NERDTreeToggle<CR>
 
 " navigate soft lines

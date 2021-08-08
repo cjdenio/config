@@ -1,6 +1,7 @@
 angelo-breuer.clock
 antfu.icons-carbon
 apollographql.vscode-apollo
+auchenberg.vscode-browser-preview
 be5invis.toml
 bierner.emojisense
 bmewburn.vscode-intelephense-client
@@ -44,11 +45,13 @@ ms-vscode.cpptools
 ms-vsliveshare.vsliveshare
 octref.vetur
 pnp.polacode
+Prisma.prisma
 rangav.vscode-thunder-client
 rebornix.ruby
 redhat.java
 redhat.vscode-commons
 redhat.vscode-yaml
+redwoodjs.redwood
 ritwickdey.LiveServer
 rust-lang.rust
 silvenon.mdx
@@ -58,6 +61,7 @@ syler.sass-indented
 TabNine.tabnine-vscode
 ThiagoLcioBittencourt.omni-dracula-theme
 tonybaloney.vscode-pets
+usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 vlanguage.vscode-vlang
 vsciot-vscode.vscode-arduino
