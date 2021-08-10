@@ -299,6 +299,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.userWords": [
+    "cupertino",
+    "hackclub",
+    "postgresql",
+    "raycast",
     "sadge",
     "upgrader"
   ]
