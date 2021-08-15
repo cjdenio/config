@@ -6,6 +6,8 @@ be5invis.toml
 bierner.emojisense
 bmewburn.vscode-intelephense-client
 bradlc.vscode-tailwindcss
+bung87.rails
+bung87.vscode-gemfile
 CalebDenio.fgh-code
 CalebDenio.vs-slack
 CalebDenio.vscode-emojicode
@@ -54,6 +56,7 @@ redhat.vscode-yaml
 redwoodjs.redwood
 ritwickdey.LiveServer
 rust-lang.rust
+sianglim.slim
 silvenon.mdx
 streetsidesoftware.code-spell-checker
 Sujan.code-blue
@@ -64,6 +67,7 @@ ThiagoLcioBittencourt.omni-dracula-theme
 tonybaloney.vscode-pets
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
+vknabel.vscode-swift-development-environment
 vlanguage.vscode-vlang
 vsciot-vscode.vscode-arduino
 vscjava.vscode-java-debug
