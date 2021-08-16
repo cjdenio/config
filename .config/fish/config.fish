@@ -47,6 +47,7 @@ if status --is-interactive
     abbr --add --global vim nvim
 
     abbr --add --global l ls
+    abbr --add --global d ls
     abbr --add --global lg "ls | grep -i"
     abbr --add --global g "grep -i"
 

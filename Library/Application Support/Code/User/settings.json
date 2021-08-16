@@ -306,7 +306,9 @@
     "hackclub",
     "postgresql",
     "raycast",
+    "redwoodjs",
     "sadge",
+    "spotify",
     "upgrader"
   ],
   "sourcekit-lsp.serverPath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp",
