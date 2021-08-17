@@ -273,7 +273,8 @@
   "files.associations": {
     "captain-definition": "json",
     "*.cow": "perl",
-    "*.go": "go"
+    "*.go": "go",
+    ".env.defaults": "dotenv"
   },
   "terminal.integrated.fontSize": 13,
   "workbench.editor.untitled.hint": "hidden",
@@ -301,18 +302,26 @@
   "cSpell.userWords": [
     "Figma",
     "HOTP",
+    "Postgres",
+    "Queryable",
     "TOTP",
     "chakra",
+    "chrono",
     "cupertino",
+    "dotenv",
     "hackclub",
     "luxon",
     "postgresql",
     "raycast",
     "redwoodjs",
+    "rustfmt",
     "sadge",
     "spotify",
+    "toolchain",
     "upgrader"
   ],
   "sourcekit-lsp.serverPath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp",
-  "sde.languageServerMode": "sourcekit-lsp"
+  "sde.languageServerMode": "sourcekit-lsp",
+  "errorLens.enabled": true,
+  "errorLens.gutterIconsEnabled": true
 }

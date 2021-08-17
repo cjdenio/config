@@ -34,6 +34,7 @@ larxx.github-blue
 matklad.rust-analyzer
 MattGleich.theme-blackbird
 miguelsolorio.fluent-icons
+mikestead.dotenv
 mkloubert.vscode-http-client
 ms-azuretools.vscode-docker
 ms-dotnettools.csharp
