@@ -50,6 +50,7 @@ mtxr.sqltools
 mtxr.sqltools-driver-mysql
 mtxr.sqltools-driver-pg
 octref.vetur
+philnash.ngrok-for-vscode
 pnp.polacode
 Prisma.prisma
 rangav.vscode-thunder-client
