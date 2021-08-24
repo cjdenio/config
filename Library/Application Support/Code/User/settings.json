@@ -304,15 +304,20 @@
     "Insertable",
     "Postgres",
     "Queryable",
+    "SIGHUP",
     "TOTP",
     "chakra",
+    "chmod",
     "chrono",
     "cupertino",
     "dotenv",
+    "gleich",
     "hackclub",
     "luxon",
+    "mkdir",
     "openapi",
     "postgresql",
+    "psql",
     "raycast",
     "redwoodjs",
     "reqwest",
@@ -328,5 +333,6 @@
   "errorLens.enabled": true,
   "errorLens.gutterIconsEnabled": true,
   "git.enableCommitSigning": true,
-  "terminal.integrated.confirmOnExit": "hasChildProcesses"
+  "terminal.integrated.confirmOnExit": "hasChildProcesses",
+  "remote.SSH.connectTimeout": 30
 }
