@@ -9,7 +9,6 @@
   "editor.fontSize": 13,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "editor.linkedEditing": true,
 
   // Git
   "git.enableSmartCommit": true,
@@ -65,7 +64,6 @@
   "wpilib.autoStartRioLog": false,
   "docker.dockerComposeBuild": false,
   "js/ts.implicitProjectConfig.checkJs": true,
-  "wpilib.offline": true,
   "remote.SSH.path": "/usr/bin/ssh",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
@@ -282,7 +280,6 @@
   "[handlebars]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": -1,
   "ruby.format": "rubocop",
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
@@ -311,16 +308,21 @@
     "chrono",
     "cupertino",
     "dotenv",
+    "entrypoint",
     "gleich",
     "hackclub",
     "luxon",
+    "mdbook",
     "mkdir",
     "openapi",
     "postgresql",
+    "println",
     "psql",
+    "quickstart",
     "raycast",
     "redwoodjs",
     "reqwest",
+    "rsync",
     "rustfmt",
     "sadge",
     "spotify",
@@ -334,5 +336,7 @@
   "errorLens.gutterIconsEnabled": true,
   "git.enableCommitSigning": true,
   "terminal.integrated.confirmOnExit": "hasChildProcesses",
-  "remote.SSH.connectTimeout": 30
+  "remote.SSH.connectTimeout": 30,
+  "window.zoomLevel": -1,
+  "cSpell.enabled": false
 }
