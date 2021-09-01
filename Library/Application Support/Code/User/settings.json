@@ -95,7 +95,7 @@
       "commands": ["workbench.action.terminal.toggleTerminal"]
     },
     {
-      "before": ["<leader>", "r"],
+      "before": ["<leader>", "r", "q"],
       "commands": ["rest-client.request"]
     },
     {
@@ -296,6 +296,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.userWords": [
+    "Denio",
     "Figma",
     "HOTP",
     "Insertable",
@@ -303,13 +304,16 @@
     "Queryable",
     "SIGHUP",
     "TOTP",
+    "Unprocessable",
     "chakra",
     "chmod",
     "chrono",
     "cupertino",
     "dotenv",
     "entrypoint",
+    "formik",
     "gleich",
+    "graphiql",
     "hackclub",
     "luxon",
     "mdbook",
@@ -326,6 +330,8 @@
     "rustfmt",
     "sadge",
     "spotify",
+    "subcommand",
+    "subcommands",
     "toolchain",
     "upgrader",
     "yeet"
@@ -335,8 +341,9 @@
   "errorLens.enabled": true,
   "errorLens.gutterIconsEnabled": true,
   "git.enableCommitSigning": true,
-  "terminal.integrated.confirmOnExit": "hasChildProcesses",
   "remote.SSH.connectTimeout": 30,
   "window.zoomLevel": -1,
-  "cSpell.enabled": false
+  "cSpell.enabled": true,
+  "conventionalCommits.showNewVersionNotes": false,
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3"
 }
