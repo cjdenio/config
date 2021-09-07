@@ -19,6 +19,7 @@ denoland.vscode-deno
 dracula-theme.theme-dracula
 eamodio.gitlens
 esbenp.prettier-vscode
+exiasr.hadolint
 firefox-devtools.vscode-firefox-debug
 formulahendry.code-runner
 GitHub.copilot
@@ -41,6 +42,7 @@ ms-dotnettools.csharp
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit

@@ -179,7 +179,6 @@
   "editor.lineNumbers": "relative",
   "screencastMode.keyboardOverlayTimeout": 2000,
   "vim.neovimPath": "/opt/homebrew/bin/nvim",
-  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "vscode-icons",
   "workbench.productIconTheme": "icons-carbon",
   "clock.alignment": "Right",
@@ -296,6 +295,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.userWords": [
+    "AHRS",
     "calebdenio",
     "chakra",
     "chmod",
@@ -314,6 +314,7 @@
     "luxon",
     "mdbook",
     "mkdir",
+    "Navx",
     "openapi",
     "Postgres",
     "postgresql",
@@ -346,5 +347,6 @@
   "window.zoomLevel": -1,
   "cSpell.enabled": true,
   "conventionalCommits.showNewVersionNotes": false,
-  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3"
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "workbench.colorTheme": "Dracula"
 }
