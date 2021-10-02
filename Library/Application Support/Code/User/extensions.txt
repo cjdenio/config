@@ -18,6 +18,7 @@ dbaeumer.vscode-eslint
 denoland.vscode-deno
 dracula-theme.theme-dracula
 eamodio.gitlens
+eg2.vscode-npm-script
 esbenp.prettier-vscode
 exiasr.hadolint
 firefox-devtools.vscode-firefox-debug

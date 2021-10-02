@@ -68,8 +68,6 @@ if status --is-interactive
     abbr --add --global kube kubectl
 end
 
-alias gotchi-dokku="/usr/bin/env ssh dokku@52.33.253.206 -q -t -p 3022"
-
 alias icat="kitty +kitten icat"
 
 alias c="code ."
