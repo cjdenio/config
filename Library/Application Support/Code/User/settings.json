@@ -293,6 +293,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.userWords": [
+    "abcdefghijklmnopqrstuvwxyz",
     "actioncable",
     "activestorage",
     "AHRS",
@@ -318,6 +319,8 @@
     "formik",
     "fortawesome",
     "gleich",
+    "gocron",
+    "gorm",
     "graphiql",
     "hackclub",
     "hadolint",
