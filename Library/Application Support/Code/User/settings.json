@@ -374,6 +374,7 @@
     "webauthn",
     "webpacker",
     "wouter",
+    "xoxp",
     "yeet"
   ],
   "sourcekit-lsp.serverPath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp",
@@ -386,9 +387,10 @@
   "conventionalCommits.showNewVersionNotes": false,
   "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
   "svelte.enable-ts-plugin": true,
-  "workbench.colorTheme": "Dracula",
   "javascript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterNames.enabled": "all",
   "editor.fontSize": 13,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "Dracula",
+  "editor.minimap.enabled": false
 }
