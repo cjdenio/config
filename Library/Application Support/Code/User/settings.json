@@ -301,6 +301,7 @@
     "bulma",
     "calebden",
     "calebdenio",
+    "calebs",
     "Chainable",
     "chakra",
     "checkmark",
@@ -362,6 +363,7 @@
     "tailwindcss",
     "teleop",
     "teleoperated",
+    "termion",
     "toolchain",
     "TOTP",
     "turbolinks",
@@ -391,6 +393,7 @@
   "typescript.inlayHints.parameterNames.enabled": "all",
   "editor.fontSize": 13,
   "window.zoomLevel": -1,
+  "editor.minimap.enabled": false,
   "workbench.colorTheme": "Dracula",
-  "editor.minimap.enabled": false
+  "editor.renderWhitespace": "boundary"
 }

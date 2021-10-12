@@ -9,7 +9,6 @@ bradlc.vscode-tailwindcss
 bung87.rails
 bung87.vscode-gemfile
 CalebDenio.fgh-code
-CalebDenio.vs-slack
 CalebDenio.vscode-emojicode
 CoenraadS.bracket-pair-colorizer-2
 Dart-Code.dart-code
