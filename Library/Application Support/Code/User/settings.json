@@ -399,5 +399,5 @@
   "editor.minimap.enabled": false,
   "workbench.colorTheme": "Dracula",
   "editor.renderWhitespace": "boundary",
-  "rust-analyzer.checkOnSave.command": "clippy -- -D warnings"
+  "rust-analyzer.checkOnSave.command": "clippy"
 }
