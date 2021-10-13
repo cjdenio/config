@@ -22,6 +22,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
+    "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
@@ -308,8 +309,10 @@
     "chmod",
     "chrono",
     "cjdenio",
+    "clippy",
     "CNAME",
     "concat",
+    "cooll",
     "cupertino",
     "Denio",
     "dinopoll",
@@ -395,5 +398,6 @@
   "window.zoomLevel": -1,
   "editor.minimap.enabled": false,
   "workbench.colorTheme": "Dracula",
-  "editor.renderWhitespace": "boundary"
+  "editor.renderWhitespace": "boundary",
+  "rust-analyzer.checkOnSave.command": "clippy -- -D warnings"
 }
