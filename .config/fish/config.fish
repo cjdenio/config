@@ -80,6 +80,8 @@ alias cat=bat
 
 alias tree="exa -T"
 
+alias gcd="cd (git rev-parse --show-toplevel)"
+
 alias 🐟="fish"
 alias 💥="bash"
 alias 💤="zsh"
