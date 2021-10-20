@@ -102,3 +102,5 @@ bind -M insert \cF accept-autosuggestion
 bind -M insert \cP history-search-backward
 bind -M insert \cN history-search-forward
 bind q exit
+
+fish_vi_key_bindings
