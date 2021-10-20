@@ -1,11 +1,22 @@
+right_format = """$time"""
+
 [time]
-disabled = true
+disabled = false
 use_12hr = true
-format = "[$time]($style) "
+format = "[  $time]($style) "
 time_format = "%l:%M%P"
+style = "dimmed"
 
 [jobs]
 disabled = true
 
 [line_break]
 disabled = false
+
+[character]
+# success_symbol = "[](bold green)"
+# error_symbol = "[](bold red) "
+
+[status]
+disabled = false
+symbol = "✖ "
