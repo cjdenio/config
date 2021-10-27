@@ -1,7 +1,9 @@
 #!/bin/bash
 
 extensions_path=~/Library/Application\ Support/Code/User/extensions.txt
-
 code --list-extensions > "$extensions_path"
-
 yadm add "$extensions_path"
+
+
+brew bundle dump > "~/.config/Brewfile"
+yadm add ~/.config/Brewfile
