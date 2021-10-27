@@ -75,7 +75,7 @@ alias cx="code . && exit"
 alias o="open ."
 alias ox="open . && exit"
 
-alias ls=exa
+alias ls="exa --icons"
 alias cat=bat
 
 alias tree="exa -T"
