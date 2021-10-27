@@ -5,5 +5,7 @@ code --list-extensions > "$extensions_path"
 yadm add "$extensions_path"
 
 
-brew bundle dump > "~/.config/Brewfile"
+cd ~/.config
+rm Brewfile
+brew bundle dump
 yadm add ~/.config/Brewfile
