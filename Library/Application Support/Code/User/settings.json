@@ -140,6 +140,10 @@
     {
       "before": ["<leader>", "g"],
       "commands": ["workbench.view.scm"]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.gotoSymbol"]
     }
   ],
   "vim.camelCaseMotion.enable": true,
