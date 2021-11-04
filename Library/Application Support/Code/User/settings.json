@@ -175,7 +175,6 @@
   "workbench.preferredDarkColorTheme": "Dracula",
   "editor.accessibilitySupport": "off",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.lineNumbers": "relative",
   "screencastMode.keyboardOverlayTimeout": 2000,
   "vim.neovimPath": "/opt/homebrew/bin/nvim",
   "workbench.iconTheme": "vscode-icons",
@@ -410,5 +409,7 @@
   "editor.renderWhitespace": "boundary",
   "rust-analyzer.checkOnSave.command": "clippy",
   "workbench.colorTheme": "Dracula",
-  "window.zoomLevel": -1
+  "cSpell.enabled": false,
+  "window.zoomLevel": -1,
+  "editor.lineNumbers": "relative"
 }

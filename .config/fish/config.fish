@@ -104,3 +104,4 @@ bind -M insert \cN history-search-forward
 bind q exit
 
 fish_vi_key_bindings
+fish_add_path /opt/homebrew/opt/gradle@6/bin

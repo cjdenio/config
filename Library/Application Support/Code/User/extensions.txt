@@ -23,6 +23,7 @@ esbenp.prettier-vscode
 exiasr.hadolint
 firefox-devtools.vscode-firefox-debug
 formulahendry.code-runner
+fwcd.kotlin
 GitHub.copilot
 GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
