@@ -1,0 +1,6 @@
+set relativenumber
+
+" Plugins
+set surround
+set commentary
+set ReplaceWithRegister
