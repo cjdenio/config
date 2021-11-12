@@ -6,7 +6,6 @@
   // Editor style/functionality
   "editor.fontLigatures": true,
   "editor.fontFamily": "VictorMono Nerd Font, FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
-  "editor.formatOnSave": true,
   "editor.formatOnType": true,
 
   // Git
@@ -267,7 +266,6 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "terminal.integrated.tabs.focusMode": "singleClick",
   "vsicons.dontShowNewVersionMessage": true,
-  "workbench.sideBar.location": "right",
   "files.associations": {
     "captain-definition": "json",
     "*.cow": "perl",
@@ -325,6 +323,7 @@
     "dotenv",
     "entrypoint",
     "Figma",
+    "flexbox",
     "fontawesome",
     "formik",
     "fortawesome",
@@ -338,6 +337,7 @@
     "hadolint",
     "hmac",
     "HOTP",
+    "hotwired",
     "icns",
     "ideaboard",
     "Insertable",
@@ -377,6 +377,7 @@
     "subcommand",
     "subcommands",
     "tailwindcss",
+    "taskalla",
     "tauri",
     "teleop",
     "teleoperated",
@@ -412,8 +413,9 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "boundary",
   "rust-analyzer.checkOnSave.command": "clippy",
-  "workbench.colorTheme": "Dracula",
-  "cSpell.enabled": false,
   "window.zoomLevel": -1,
-  "editor.lineNumbers": "relative"
+  "editor.lineNumbers": "relative",
+  "workbench.sideBar.location": "right",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Dracula"
 }
