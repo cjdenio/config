@@ -417,5 +417,9 @@
   "editor.lineNumbers": "relative",
   "workbench.sideBar.location": "right",
   "editor.formatOnSave": true,
-  "workbench.colorTheme": "Dracula"
+  "workbench.colorTheme": "Dracula",
+  "emmet.excludeLanguages": [
+    "markdown",
+    "haml"
+  ]
 }

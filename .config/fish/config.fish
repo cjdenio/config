@@ -33,7 +33,7 @@ if test $TERM = xterm-kitty
 end
 
 function mkcd
-    mkdir $argv
+    mkdir -p $argv
     cd $argv
 end
 
