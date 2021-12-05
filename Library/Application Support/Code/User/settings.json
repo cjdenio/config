@@ -325,6 +325,7 @@
     "Figma",
     "flexbox",
     "fontawesome",
+    "fontsource",
     "formik",
     "fortawesome",
     "gleich",
@@ -335,6 +336,7 @@
     "graphiql",
     "hackclub",
     "hadolint",
+    "haml",
     "hmac",
     "HOTP",
     "hotwired",
@@ -367,6 +369,7 @@
     "repr",
     "reqwest",
     "rsync",
+    "rubocop",
     "rustfmt",
     "sadge",
     "Segoe",
@@ -421,5 +424,6 @@
   "emmet.excludeLanguages": [
     "markdown",
     "haml"
-  ]
+  ],
+  "cSpell.enabled": false
 }
