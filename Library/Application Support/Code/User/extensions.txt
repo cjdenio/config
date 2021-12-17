@@ -1,6 +1,7 @@
 angelo-breuer.clock
 antfu.icons-carbon
 apollographql.vscode-apollo
+arcanis.vscode-zipfs
 auchenberg.vscode-browser-preview
 be5invis.toml
 bierner.emojisense
@@ -31,7 +32,9 @@ golang.go
 Goopware.raythis
 GraphQL.vscode-graphql
 humao.rest-client
+JakeBecker.elixir-ls
 James-Yu.latex-workshop
+karunamurti.haml
 karunamurti.tera
 larxx.github-blue
 matklad.rust-analyzer

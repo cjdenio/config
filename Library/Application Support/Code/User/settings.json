@@ -300,6 +300,7 @@
     "activestorage",
     "AHRS",
     "airtable",
+    "alpinejs",
     "birthdaybot",
     "Bootstrapper",
     "bulckcah",
@@ -322,6 +323,7 @@
     "dinopoll",
     "dotenv",
     "entrypoint",
+    "esbuild",
     "Figma",
     "flexbox",
     "fontawesome",
@@ -358,6 +360,7 @@
     "nuxt",
     "nuxtjs",
     "openapi",
+    "outdir",
     "Postgres",
     "postgresql",
     "println",
@@ -396,6 +399,7 @@
     "vite",
     "vitejs",
     "webauthn",
+    "webextension",
     "webpacker",
     "wouter",
     "xoxp",
@@ -424,6 +428,5 @@
   "emmet.excludeLanguages": [
     "markdown",
     "haml"
-  ],
-  "cSpell.enabled": false
+  ]
 }
