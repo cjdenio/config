@@ -180,7 +180,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "screencastMode.keyboardOverlayTimeout": 2000,
   "vim.neovimPath": "/opt/homebrew/bin/nvim",
-  "workbench.iconTheme": "vscode-icons",
   "workbench.productIconTheme": "icons-carbon",
   "clock.alignment": "Right",
   "clock.priority": -1,
@@ -270,7 +269,8 @@
     "captain-definition": "json",
     "*.cow": "perl",
     "*.go": "go",
-    ".env.defaults": "dotenv"
+    ".env.defaults": "dotenv",
+    ".parcelrc": "json"
   },
   "terminal.integrated.fontSize": 13,
   "workbench.editor.untitled.hint": "hidden",
@@ -301,6 +301,7 @@
     "AHRS",
     "airtable",
     "alpinejs",
+    "authed",
     "birthdaybot",
     "Bootstrapper",
     "bulckcah",
@@ -322,6 +323,7 @@
     "Denio",
     "dinopoll",
     "dotenv",
+    "dotfiles",
     "entrypoint",
     "esbuild",
     "Figma",
@@ -353,6 +355,7 @@
     "mailparser",
     "mdbook",
     "mkdir",
+    "mktemp",
     "monospace",
     "mrkdwn",
     "mywebsite",
@@ -388,6 +391,7 @@
     "teleop",
     "teleoperated",
     "termion",
+    "thiserror",
     "toolchain",
     "TOTP",
     "turbolinks",
@@ -395,6 +399,7 @@
     "Unprocessable",
     "upgrader",
     "upstreams",
+    "useresolute",
     "vercel",
     "vite",
     "vitejs",
@@ -425,8 +430,7 @@
   "workbench.sideBar.location": "right",
   "editor.formatOnSave": true,
   "workbench.colorTheme": "Dracula",
-  "emmet.excludeLanguages": [
-    "markdown",
-    "haml"
-  ]
+  "emmet.excludeLanguages": ["markdown", "haml"],
+  "workbench.iconTheme": "vscode-icons",
+  "cSpell.enabled": false
 }
