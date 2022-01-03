@@ -425,12 +425,12 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "boundary",
   "rust-analyzer.checkOnSave.command": "clippy",
-  "window.zoomLevel": -1,
   "editor.lineNumbers": "relative",
   "workbench.sideBar.location": "right",
   "editor.formatOnSave": true,
   "workbench.colorTheme": "Dracula",
   "emmet.excludeLanguages": ["markdown", "haml"],
   "workbench.iconTheme": "vscode-icons",
-  "cSpell.enabled": false
+  "window.zoomLevel": -1,
+  "workbench.startupEditor": "none"
 }
