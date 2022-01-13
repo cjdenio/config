@@ -1,4 +1,5 @@
 set relativenumber
+set ignorecase
 
 " Plugins
 set surround
