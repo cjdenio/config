@@ -447,6 +447,5 @@
   "emmet.excludeLanguages": ["markdown", "haml"],
   "workbench.iconTheme": "vscode-icons",
   "window.zoomLevel": -1,
-  "workbench.startupEditor": "none",
-  "workbench.editor.showTabs": false
+  "workbench.startupEditor": "none"
 }
