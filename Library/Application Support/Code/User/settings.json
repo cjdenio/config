@@ -288,7 +288,8 @@
     "markdown": false
   },
   "emmet.includeLanguages": {
-    "erb": "html"
+    "erb": "html",
+    "javascript": "javascriptreact"
   },
   "terminal.external.osxExec": "iTerm.app",
   "[markdown]": {
@@ -325,6 +326,7 @@
     "concat",
     "cooll",
     "cupertino",
+    "Cyclomatic",
     "Deml",
     "Denio",
     "dinopoll",
@@ -358,6 +360,7 @@
     "hadolint",
     "haml",
     "hmac",
+    "Honeybadger",
     "HOTP",
     "hotwired",
     "hovercard",
@@ -409,6 +412,7 @@
     "rubocop",
     "rustfmt",
     "sadge",
+    "scrolllock",
     "Segoe",
     "selec",
     "semibold",
@@ -477,7 +481,7 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.validate.enable": false,
   "redhat.telemetry.enabled": true,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "javascript.validate.enable": false
 }
