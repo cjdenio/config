@@ -57,7 +57,7 @@
   "explorer.confirmDragAndDrop": false,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "java.home": "/Users/calebdenio/wpilib/2021/jdk",
+  "java.jdt.ls.java.home": "/Users/calebdenio/wpilib/2021/jdk",
   "java.project.importHint": false,
   "wpilib.autoStartRioLog": false,
   "docker.dockerComposeBuild": false,
@@ -67,7 +67,6 @@
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "ruby.useLanguageServer": true,
   "vscode-pets.petType": "rubber-duck",
 
   // Vim
@@ -280,6 +279,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "ruby.format": "rubocop",
+  "ruby.lint": {
+    "rubocop": true
+  },
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": false,

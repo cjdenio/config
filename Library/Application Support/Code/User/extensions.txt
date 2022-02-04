@@ -13,6 +13,7 @@ CalebDenio.fgh-code
 CalebDenio.vscode-emojicode
 castwide.solargraph
 CoenraadS.bracket-pair-colorizer-2
+cschlosser.doxdocgen
 Dart-Code.dart-code
 Dart-Code.flutter
 dbaeumer.vscode-eslint
@@ -34,6 +35,7 @@ GraphQL.vscode-graphql
 humao.rest-client
 JakeBecker.elixir-ls
 James-Yu.latex-workshop
+jeff-hykin.better-cpp-syntax
 karunamurti.haml
 karunamurti.tera
 larxx.github-blue
@@ -52,7 +54,11 @@ ms-toolsai.jupyter-renderers
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
+ms-vscode-remote.remote-wsl
+ms-vscode.cmake-tools
 ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
 ms-vsliveshare.vsliveshare
 mtxr.sqltools
 mtxr.sqltools-driver-mysql
@@ -78,6 +84,7 @@ syler.sass-indented
 TabNine.tabnine-vscode
 ThiagoLcioBittencourt.omni-dracula-theme
 tonybaloney.vscode-pets
+twxs.cmake
 usernamehw.errorlens
 vayan.haml
 VisualStudioExptTeam.vscodeintellicode
