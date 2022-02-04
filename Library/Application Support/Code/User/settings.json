@@ -484,5 +484,7 @@
   "redhat.telemetry.enabled": true,
   "window.zoomLevel": -1,
   "javascript.validate.enable": false,
-  "git.autoStash": true
+  "git.autoStash": true,
+  "git.allowForcePush": true,
+  "git.confirmForcePush": false
 }
