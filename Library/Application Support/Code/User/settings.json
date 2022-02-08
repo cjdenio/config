@@ -371,9 +371,11 @@
     "Imgproc",
     "Infima",
     "Insertable",
+    "Intelli",
     "isready",
     "janky",
     "javascripts",
+    "jetbrains",
     "keyer",
     "Laravel",
     "Latta",
@@ -391,6 +393,7 @@
     "mywebsite",
     "Navx",
     "noreferrer",
+    "nuxi",
     "nuxt",
     "nuxtjs",
     "openapi",
@@ -448,6 +451,7 @@
     "vercel",
     "vite",
     "vitejs",
+    "wavfile",
     "webauthn",
     "webextension",
     "webfont",
@@ -487,6 +491,5 @@
   "window.zoomLevel": -1,
   "javascript.validate.enable": false,
   "git.autoStash": true,
-  "git.allowForcePush": true,
-  "git.confirmForcePush": false
+  "git.allowForcePush": true
 }
