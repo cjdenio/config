@@ -32,6 +32,7 @@ GitHub.vscode-pull-request-github
 golang.go
 Goopware.raythis
 GraphQL.vscode-graphql
+hashicorp.terraform
 humao.rest-client
 JakeBecker.elixir-ls
 James-Yu.latex-workshop
