@@ -5,6 +5,7 @@ arcanis.vscode-zipfs
 auchenberg.vscode-browser-preview
 be5invis.toml
 bierner.emojisense
+bierner.markdown-mermaid
 bmewburn.vscode-intelephense-client
 bradlc.vscode-tailwindcss
 bung87.rails
