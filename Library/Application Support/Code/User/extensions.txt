@@ -30,6 +30,7 @@ fwcd.kotlin
 GitHub.copilot
 GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
+gitkraken.gitkraken-authentication
 golang.go
 Goopware.raythis
 GraphQL.vscode-graphql

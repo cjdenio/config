@@ -19,5 +19,13 @@
   {
     "key": "ctrl+cmd+l",
     "command": "workbench.action.moveEditorToRightGroup"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.switchWindow"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.switchWindow"
   }
 ]

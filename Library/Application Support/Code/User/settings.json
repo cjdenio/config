@@ -61,7 +61,6 @@
   "java.project.importHint": false,
   "wpilib.autoStartRioLog": false,
   "docker.dockerComposeBuild": false,
-  "js/ts.implicitProjectConfig.checkJs": true,
   "remote.SSH.path": "/usr/bin/ssh",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
@@ -328,6 +327,7 @@
     "CNAME",
     "concat",
     "cooll",
+    "crosshairs",
     "cupertino",
     "Cyclomatic",
     "darkless",
@@ -387,6 +387,7 @@
     "libdns",
     "luxon",
     "mailparser",
+    "markdownify",
     "maxage",
     "mdbook",
     "mkdir",
@@ -452,6 +453,7 @@
     "typeorm",
     "Unfollow",
     "Unprocessable",
+    "unstyled",
     "upass",
     "upgrader",
     "upstreams",
@@ -486,7 +488,6 @@
   "editor.renderWhitespace": "boundary",
   "rust-analyzer.checkOnSave.command": "clippy",
   "editor.lineNumbers": "relative",
-  "workbench.sideBar.location": "right",
   "workbench.colorTheme": "Dracula",
   "emmet.excludeLanguages": ["markdown", "haml"],
   "workbench.iconTheme": "vscode-icons",
@@ -498,5 +499,8 @@
   "git.autoStash": true,
   "git.allowForcePush": true,
   "editor.formatOnSave": true,
+  "workbench.experimental.layoutControl.enabled": true,
+  "workbench.experimental.layoutControl.type": "both",
+  "workbench.sideBar.location": "right",
   "window.zoomLevel": -1
 }
