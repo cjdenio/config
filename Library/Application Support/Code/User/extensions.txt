@@ -22,15 +22,16 @@ denoland.vscode-deno
 dracula-theme.theme-dracula
 eamodio.gitlens
 eg2.vscode-npm-script
+ekarbe.reddit-viewer
 esbenp.prettier-vscode
 exiasr.hadolint
 firefox-devtools.vscode-firefox-debug
 formulahendry.code-runner
 fwcd.kotlin
+GitHub.codespaces
 GitHub.copilot
 GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
-gitkraken.gitkraken-authentication
 golang.go
 Goopware.raythis
 GraphQL.vscode-graphql
