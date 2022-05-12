@@ -40,7 +40,6 @@ humao.rest-client
 JakeBecker.elixir-ls
 James-Yu.latex-workshop
 jeff-hykin.better-cpp-syntax
-johnsoncodehk.volar
 karunamurti.haml
 karunamurti.tera
 larxx.github-blue
@@ -105,6 +104,7 @@ vscjava.vscode-maven
 vscode-icons-team.vscode-icons
 vscodevim.vim
 Vtrois.gitmoji-vscode
+Vue.volar
 WakaTime.vscode-wakatime
 wingrunr21.vscode-ruby
 wpilibsuite.vscode-wpilib
