@@ -4,7 +4,6 @@ apollographql.vscode-apollo
 arcanis.vscode-zipfs
 auchenberg.vscode-browser-preview
 be5invis.toml
-bierner.emojisense
 bierner.markdown-mermaid
 bmewburn.vscode-intelephense-client
 bradlc.vscode-tailwindcss
@@ -13,7 +12,6 @@ bung87.vscode-gemfile
 CalebDenio.fgh-code
 CalebDenio.vscode-emojicode
 castwide.solargraph
-CoenraadS.bracket-pair-colorizer-2
 cschlosser.doxdocgen
 Dart-Code.dart-code
 Dart-Code.flutter
@@ -43,7 +41,6 @@ jeff-hykin.better-cpp-syntax
 karunamurti.haml
 karunamurti.tera
 larxx.github-blue
-matklad.rust-analyzer
 MattGleich.theme-blackbird
 miguelsolorio.fluent-icons
 mikestead.dotenv
@@ -68,7 +65,6 @@ mtxr.sqltools
 mtxr.sqltools-driver-mysql
 mtxr.sqltools-driver-pg
 octref.vetur
-philnash.ngrok-for-vscode
 pnp.polacode
 Prisma.prisma
 rangav.vscode-thunder-client
@@ -79,6 +75,7 @@ redhat.vscode-yaml
 redwoodjs.redwood
 ritwickdey.LiveServer
 rust-lang.rust
+rust-lang.rust-analyzer
 sianglim.slim
 silvenon.mdx
 streetsidesoftware.code-spell-checker
