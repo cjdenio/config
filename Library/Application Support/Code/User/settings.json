@@ -562,5 +562,7 @@
   },
   "python.formatting.provider": "black",
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorTheme": "Dracula"
+  "workbench.colorTheme": "Dracula",
+  "githubPullRequests.fileListLayout": "flat",
+  "git.branchPrefix": "cjdenio/"
 }
