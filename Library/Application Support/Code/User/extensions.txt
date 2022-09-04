@@ -20,7 +20,6 @@ denoland.vscode-deno
 dracula-theme.theme-dracula
 eamodio.gitlens
 eg2.vscode-npm-script
-ekarbe.reddit-viewer
 esbenp.prettier-vscode
 exiasr.hadolint
 firefox-devtools.vscode-firefox-debug
@@ -92,6 +91,7 @@ tonybaloney.vscode-pets
 twxs.cmake
 usernamehw.errorlens
 vayan.haml
+VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode
 vivaxy.vscode-conventional-commits
 vknabel.vscode-swift-development-environment

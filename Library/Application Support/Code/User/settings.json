@@ -462,6 +462,7 @@
     "Procfile",
     "proxyparty",
     "psql",
+    "quasis",
     "Queryable",
     "quickstart",
     "Raleway",
@@ -496,6 +497,8 @@
     "subheadline",
     "subroute",
     "supabase",
+    "swal",
+    "sweetalert",
     "tada",
     "tailwindcss",
     "taskalla",
@@ -511,6 +514,7 @@
     "tryin",
     "turbolinks",
     "typeorm",
+    "UIDOM",
     "Uncategorized",
     "Unfollow",
     "unhover",
@@ -592,11 +596,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.postCommitCommand": "push",
-  "window.zoomLevel": -1,
   "npm.keybindingsChangedWarningShown": true,
   "code-runner.executorMap": {
     "python": "python3 -u"
   },
-  "editor.experimental.stickyScroll.enabled": true,
-  "githubPullRequests.pullBranch": "never"
+  "githubPullRequests.pullBranch": "never",
+  "window.zoomLevel": -1,
+  "editor.stickyScroll.enabled": true
 }

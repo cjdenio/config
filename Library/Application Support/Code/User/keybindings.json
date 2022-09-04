@@ -27,5 +27,13 @@
   {
     "key": "ctrl+w",
     "command": "-workbench.action.switchWindow"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "selectNextCodeAction"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "selectPrevCodeAction"
   }
 ]
