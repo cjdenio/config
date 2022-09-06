@@ -91,7 +91,6 @@ tonybaloney.vscode-pets
 twxs.cmake
 usernamehw.errorlens
 vayan.haml
-VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode
 vivaxy.vscode-conventional-commits
 vknabel.vscode-swift-development-environment

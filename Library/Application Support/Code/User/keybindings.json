@@ -30,10 +30,12 @@
   },
   {
     "key": "ctrl+n",
-    "command": "selectNextCodeAction"
+    "command": "selectNextCodeAction",
+    "when": "codeActionMenuVisible"
   },
   {
     "key": "ctrl+p",
-    "command": "selectPrevCodeAction"
+    "command": "selectPrevCodeAction",
+    "when": "codeActionMenuVisible"
   }
 ]
