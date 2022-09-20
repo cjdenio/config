@@ -429,6 +429,7 @@
     "mayhemrobotics",
     "mdbook",
     "microworld",
+    "ministat",
     "mkdir",
     "mktemp",
     "monospace",
@@ -488,6 +489,7 @@
     "slackevents",
     "smtps",
     "spotify",
+    "spotipy",
     "sslmode",
     "statset",
     "stianeikeland",
@@ -536,9 +538,11 @@
     "webextension",
     "webfont",
     "webpacker",
+    "WLPP",
     "woop",
     "wouter",
     "wpilibj",
+    "Wyze",
     "xcaddy",
     "xoxb",
     "xoxp",
@@ -602,6 +606,7 @@
     "python": "python3 -u"
   },
   "githubPullRequests.pullBranch": "never",
+  "editor.stickyScroll.enabled": true,
   "window.zoomLevel": -1,
-  "editor.stickyScroll.enabled": true
+  "cSpell.enableFiletypes": ["erb"]
 }
