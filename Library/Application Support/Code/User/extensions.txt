@@ -55,6 +55,8 @@ ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
@@ -76,6 +78,7 @@ rangav.vscode-thunder-client
 rebornix.ruby
 redhat.java
 redhat.vscode-commons
+redhat.vscode-xml
 redhat.vscode-yaml
 redwoodjs.redwood
 ritwickdey.LiveServer
@@ -93,6 +96,7 @@ tonybaloney.vscode-pets
 twxs.cmake
 usernamehw.errorlens
 vayan.haml
+VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode
 vivaxy.vscode-conventional-commits
 vknabel.vscode-swift-development-environment
